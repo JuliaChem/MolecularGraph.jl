@@ -2,16 +2,16 @@
 
 # First Order
 - key: "CH3"
-  query: "[CH3;!R]"
+  query: "[CH3D1;!R]"
 
 - key: "CH2"
-  query: "[CH2D2]"
+  query: "[CH2D2;!R]"
 
 - key: "CH"
   query: "[CH1D3;!R]"
 
 - key: "C"
-  query: "[CH0;!R]"
+  query: "[CH0D4;!R]"
 #
 # - key: "CH2=CH"
 #   query: "[CH2;!R]=[CH;!R]"
@@ -70,13 +70,13 @@
 
 
 - key: "CH2 (cyclic)"
-  query: "[CH2; R]"
+  query: "[CH2;R]"
 
 - key: "CH (cyclic)"
-  query: "[CH; R]"
+  query: "[CH;R]"
 
 - key: "C (cyclic)"
-  query: "[CH0D4; R]"
+  query: "[CH0D4;R]"
 #
 #
 #
