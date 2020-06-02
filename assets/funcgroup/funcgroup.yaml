@@ -69,13 +69,13 @@
 
 
 
-- key: "CH2 (cyclic)"
+- key: "CH2(cyc)"
   query: "[CH2;R]"
 
-- key: "CH (cyclic)"
+- key: "CH(cyc)"
   query: "[CH;R]"
 
-- key: "C (cyclic)"
+- key: "C(cyc)"
   query: "[CH0D4;R]"
 #
 #
@@ -95,7 +95,7 @@
 # - key: "C=N (cyclic)"
 #   query: "[CH0; R]=[N; R]"
 
-- key: "O (cyclic)"
+- key: "O(cyc)"
   query: "[@ROD2@]"
 #
 # - key: "CO (cyclic)"
@@ -130,7 +130,7 @@
 - key: "CHcyc-OH"
   query: "[RCH][OH]"
 
-- key: "C (cyclic)-CH2"
+- key: "Ccyc-CH2"
   query: "[R@CH0][CH2]"
 
 # In progress
