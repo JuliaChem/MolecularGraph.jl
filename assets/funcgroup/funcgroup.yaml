@@ -3,134 +3,134 @@
 # First Order
 - key: "CH3"
   query: "[CH3;!R]"
-
-- key: "CH2"
-  query: "[CH2D2;!R]"
-
-- key: "CH"
-  query: "[CH1D3;!R]"
-
-- key: "C"
-  query: "[CH0;!R]"
-
-- key: "CH2=CH"
-  query: "[CH2;!R]=[CH;!R]"
-
-- key: "CH=CH"
-  query: "[CH;!R]=[CH;!R]"
-
-- key: "CH2=C"
-  query: "[CH2;!R]=[CH0;!R]"
-
-- key: "CH=C"
-  query: "[CH;!R]=[CH0;!R]"
-
-- key: "C=C"
-  query: "[CH0;!R]=[CH0;!R]"
-
-- key: "CH2=C=CH"
-  query: "[CH2;!R]=[CH0;!R]=[CH1;!R]"
-
-- key: "CH2=C=C"
-  query: "[CH2;!R]=[CH0;!R]=[CH0;!R]"
-
-- key: "C=C=C"
-  query: "[CH0;!R]=[CH0;!R]=[CH0;!R]"
-
-- key: "CH#C"
-  query: "[CH1;!R]#[CH0;!R]"
-
-- key: "C#C"
-  query: "[CH0;!R]#[CH0;!R]"
-
-
-
-- key: "OH"
-  query: "[OHD1;!R]"
-
-
-
-- key: "CHO"
-  query: "C=O"
-
-
-
-- key: "-I"
-  query: "[ID1][*!R]"
-
-- key: "-Br"
-  query: "[BrD1][*!R]"
-
-- key: "-F"
-  query: "[FD1][*!R]"
-
-- key: "-Cl"
-  query: "[ClD1][*!R]"
-
-
-
-- key: "CH2 (cyclic)"
-  query: "[R@CH2@]"
-
-- key: "CH (cyclic)"
-  query: "[@CH1D4@]"
-
-- key: "C (cyclic)"
-  query: "[@CH0D4@]"
-
-
-
-
-- key: "CH2=C=CH"
-  query: "[CH2;!R]=C=[CH;!R]"
-
-
-
-- key: "N (cyclic)"
-  query: "[@R#7D2@]"
-
-- key: "CH=N (cyclic)"
-  query: "[CH1; R]=[N; R]"
-
-- key: "C=N (cyclic)"
-  query: "[CH0; R]=[N; R]"
-
-- key: "O (cyclic)"
-  query: "[@ROD2@]"
-
-- key: "CO (cyclic)"
-  query: "[CH0; R][OD2, R]"
-
-- key: "S (cyclic)"
-  query: "[@R#16D2@]"
-
-
-
-
-- key: "-O-"
-  query: "[*R][@OD2@;!R][*R]"
-
-
-
-- key: "CH=C=CH"
-  query: "[CH;!R]=[CH0, R]=[CH;!R]"
-
-- key: "CH=C=C"
-  query: "[CH;!R]=[CH0; R]=[CH0;!R]"
-
-
-- key: "CHcyc-O-"
-  query: "[RCH][@OD2@;!R][*R]"
-
-# Second order
-- key: "CHcyc-CH2"
-  query: "[R@CH][CH2]"
-
-- key: "CHcyc-OH"
-  query: "[RCH][OH]"
-
-- key: "C (cyclic)-CH2"
-  query: "[R@CH0][CH2]"
+#
+# - key: "CH2"
+#   query: "[CH2D2;!R]"
+# 
+# - key: "CH"
+#   query: "[CH1D3;!R]"
+#
+# - key: "C"
+#   query: "[CH0;!R]"
+#
+# - key: "CH2=CH"
+#   query: "[CH2;!R]=[CH;!R]"
+#
+# - key: "CH=CH"
+#   query: "[CH;!R]=[CH;!R]"
+#
+# - key: "CH2=C"
+#   query: "[CH2;!R]=[CH0;!R]"
+#
+# - key: "CH=C"
+#   query: "[CH;!R]=[CH0;!R]"
+#
+# - key: "C=C"
+#   query: "[CH0;!R]=[CH0;!R]"
+#
+# - key: "CH2=C=CH"
+#   query: "[CH2;!R]=[CH0;!R]=[CH1;!R]"
+#
+# - key: "CH2=C=C"
+#   query: "[CH2;!R]=[CH0;!R]=[CH0;!R]"
+#
+# - key: "C=C=C"
+#   query: "[CH0;!R]=[CH0;!R]=[CH0;!R]"
+#
+# - key: "CH#C"
+#   query: "[CH1;!R]#[CH0;!R]"
+#
+# - key: "C#C"
+#   query: "[CH0;!R]#[CH0;!R]"
+#
+#
+#
+# - key: "OH"
+#   query: "[OHD1;!R]"
+#
+#
+#
+# - key: "CHO"
+#   query: "C=O"
+#
+#
+#
+# - key: "-I"
+#   query: "[ID1][*!R]"
+#
+# - key: "-Br"
+#   query: "[BrD1][*!R]"
+#
+# - key: "-F"
+#   query: "[FD1][*!R]"
+#
+# - key: "-Cl"
+#   query: "[ClD1][*!R]"
+#
+#
+#
+# - key: "CH2 (cyclic)"
+#   query: "[R@CH2@]"
+#
+# - key: "CH (cyclic)"
+#   query: "[@CH1D4@]"
+#
+# - key: "C (cyclic)"
+#   query: "[@CH0D4@]"
+#
+#
+#
+#
+# - key: "CH2=C=CH"
+#   query: "[CH2;!R]=C=[CH;!R]"
+#
+#
+#
+# - key: "N (cyclic)"
+#   query: "[@R#7D2@]"
+#
+# - key: "CH=N (cyclic)"
+#   query: "[CH1; R]=[N; R]"
+#
+# - key: "C=N (cyclic)"
+#   query: "[CH0; R]=[N; R]"
+#
+# - key: "O (cyclic)"
+#   query: "[@ROD2@]"
+#
+# - key: "CO (cyclic)"
+#   query: "[CH0; R][OD2, R]"
+#
+# - key: "S (cyclic)"
+#   query: "[@R#16D2@]"
+#
+#
+#
+#
+# - key: "-O-"
+#   query: "[*R][@OD2@;!R][*R]"
+#
+#
+#
+# - key: "CH=C=CH"
+#   query: "[CH;!R]=[CH0, R]=[CH;!R]"
+#
+# - key: "CH=C=C"
+#   query: "[CH;!R]=[CH0; R]=[CH0;!R]"
+#
+#
+# - key: "CHcyc-O-"
+#   query: "[RCH][@OD2@;!R][*R]"
+#
+# # Second order
+# - key: "CHcyc-CH2"
+#   query: "[R@CH][CH2]"
+#
+# - key: "CHcyc-OH"
+#   query: "[RCH][OH]"
+#
+# - key: "C (cyclic)-CH2"
+#   query: "[R@CH0][CH2]"
 
 # In progress
 
