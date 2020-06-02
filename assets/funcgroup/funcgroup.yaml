@@ -73,10 +73,10 @@
   query: "[CH2; R]"
 
 - key: "CH (cyclic)"
-  query: "[CH ;R]"
+  query: "[CH; R]"
 
 - key: "C (cyclic)"
-  query: "[CH0D4, R]"
+  query: "[CH0D4; R]"
 #
 #
 #
