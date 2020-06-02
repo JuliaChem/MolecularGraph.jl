@@ -9,9 +9,9 @@
 
 - key: "CH"
   query: "[CH1D3;!R]"
-#
-# - key: "C"
-#   query: "[CH0;!R]"
+
+- key: "C"
+  query: "[CH0;!R]"
 #
 # - key: "CH2=CH"
 #   query: "[CH2;!R]=[CH;!R]"
@@ -55,28 +55,28 @@
 #
 #
 #
-# - key: "-I"
-#   query: "[ID1][*!R]"
-#
-# - key: "-Br"
-#   query: "[BrD1][*!R]"
-#
-# - key: "-F"
-#   query: "[FD1][*!R]"
-#
-# - key: "-Cl"
-#   query: "[ClD1][*!R]"
-#
-#
-#
-# - key: "CH2 (cyclic)"
-#   query: "[R@CH2@]"
-#
-# - key: "CH (cyclic)"
-#   query: "[@CH1D4@]"
-#
-# - key: "C (cyclic)"
-#   query: "[@CH0D4@]"
+- key: "-I"
+  query: "[ID1][*!R]"
+
+- key: "-Br"
+  query: "[BrD1][*!R]"
+
+- key: "-F"
+  query: "[FD1][*!R]"
+
+- key: "-Cl"
+  query: "[ClD1][*!R]"
+
+
+
+- key: "CH2 (cyclic)"
+  query: "[@CH2@]"
+
+- key: "CH (cyclic)"
+  query: "[@CH1D4@]"
+
+- key: "C (cyclic)"
+  query: "[@CH0D4@]"
 #
 #
 #
@@ -94,9 +94,9 @@
 #
 # - key: "C=N (cyclic)"
 #   query: "[CH0; R]=[N; R]"
-#
-# - key: "O (cyclic)"
-#   query: "[@ROD2@]"
+
+- key: "O (cyclic)"
+  query: "[@ROD2@]"
 #
 # - key: "CO (cyclic)"
 #   query: "[CH0; R][OD2, R]"
@@ -118,12 +118,14 @@
 #   query: "[CH;!R]=[CH0; R]=[CH0;!R]"
 #
 
+
+
+# Second order
 - key: "CHcyc-O-"
   query: "[RCH][@OD2@;!R][*R]"
-#
-# Second order
-# - key: "CHcyc-CH2"
-#   query: "[R@CH][CH2]"
+  
+- key: "CHcyc-CH2"
+  query: "[R@CH][CH2]"
 #
 - key: "CHcyc-OH"
   query: "[RCH][OH]"
