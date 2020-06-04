@@ -82,7 +82,7 @@
 
 # 109
 - key: "CHCl"
-  isa: "-Cl"
+  isa: ["-Cl"]
   query: "[CH1D3][#17]"
 
 # 127
