@@ -23,7 +23,11 @@
 # 33
 - key: "CH3CO"
   query: "[CH3D1][CD3]=[OD1]"
-#
+
+# 38
+- key: "CHO"
+  query: "[CH]=[OD1]"
+
 # - key: "CH2=CH"
 #   query: "[CH2;!R]=[CH;!R]"
 #
@@ -62,8 +66,7 @@
 #
 #
 #
-# - key: "CHO"
-#   query: "C=O"
+
 #
 #
 
