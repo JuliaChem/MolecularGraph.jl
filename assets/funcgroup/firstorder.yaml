@@ -82,7 +82,7 @@
 
 # 109
 - key: "CHCl"
-  query: "[CH][#17]"
+  query: "[CH1D3][#17]"
 
 # 127
 - key: "-I"
