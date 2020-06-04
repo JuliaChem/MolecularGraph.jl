@@ -9,7 +9,7 @@
   query: "[CH2D2;!R]"
 
 # 3
-- key: "CH"
+- key: CH
   query: "[CH1D3;!R]"
 
 # 4
@@ -82,7 +82,7 @@
 
 # 109
 - key: "CHCl"
-  have: ["-Cl", "CH"]
+  isa: [CH]
   query: "[CH1D3][#17]"
 
 # 127
