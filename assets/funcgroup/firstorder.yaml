@@ -22,7 +22,7 @@
 
 # 33
 - key: "CH3CO"
-  query: "CH3CD1=O"
+  query: "[CH3D1][CD1]=O"
 #
 # - key: "CH2=CH"
 #   query: "[CH2;!R]=[CH;!R]"
