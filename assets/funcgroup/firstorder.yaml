@@ -18,7 +18,7 @@
 
 # 15
 - key: "aCH"
-  query: "[aCHD2; R]"
+  query: "[aCH; R]"
 #
 # - key: "CH2=CH"
 #   query: "[CH2;!R]=[CH;!R]"
