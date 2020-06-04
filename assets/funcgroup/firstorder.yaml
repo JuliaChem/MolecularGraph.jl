@@ -17,12 +17,13 @@
   query: "[CH0D4;!R]"
 
 # 13
-- key: "CH#C"
-  query: "[CH]#[CH0]"
+#- key: "CH#C"
+#  query: "[CH]#[CH1]"
 
 # 14
-- key: "C#C"
-  query: "[CH0]#[CH0]"
+#- key: "C#C"
+#  query: "[CHD2]#[CHD2]"
+
 # 15
 - key: "aCH"
   query: "[cD2]"
@@ -78,7 +79,10 @@
 #
 
 #
-#
+
+# 109
+- key: "CHCl"
+  query: "[CH][Cl]"
 
 # 127
 - key: "-I"
