@@ -10,7 +10,7 @@
 
 # 3
 - key: CH
-  query: "[CH1D3;!R]"
+  query: "[CH1D3]"
 
 # 4
 - key: "C"
