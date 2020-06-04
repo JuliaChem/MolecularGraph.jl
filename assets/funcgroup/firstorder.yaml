@@ -16,6 +16,13 @@
 - key: "C"
   query: "[CH0D4;!R]"
 
+# 13
+- key: "CH#C"
+  query: "[CH]#[C]"
+
+# 14
+- key: "C#C"
+  query: "C#C"
 # 15
 - key: "aCH"
   query: "[cD2]"
