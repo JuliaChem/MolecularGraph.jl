@@ -82,7 +82,7 @@
 
 # 109
 - key: "CHCl"
-  isa: [-Cl]
+  isa: ["-Cl", "CH"]
   query: "[CH1D3][#17]"
 
 # 127
@@ -98,7 +98,7 @@
   query: "[FD1][*!R]"
 
 # 130
-- key: -Cl
+- key: "-Cl"
   query: "[#17][*!R]"
 
 
