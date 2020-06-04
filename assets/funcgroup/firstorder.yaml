@@ -15,6 +15,10 @@
 # 4
 - key: "C"
   query: "[CH0D4;!R]"
+
+# 15
+- key: "aCH"
+  query: "[aCHD2; R]"
 #
 # - key: "CH2=CH"
 #   query: "[CH2;!R]=[CH;!R]"
