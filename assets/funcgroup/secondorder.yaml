@@ -1,6 +1,19 @@
 ---
 
+# Second order
+- key: "CHcyc-O-"
+  query: "[RCH][@OD2@;!R][*R]"
 
+- key: "CHcyc-CH2"
+  query: "[R@CH][CH2]"
+#
+- key: "CHcyc-OH"
+  query: "[RCH][OH]"
+
+- key: "Ccyc-CH2"
+  query: "[R@CH0][CH2]"
+
+  
 # 3 membered
 
 - key: ThreeMemberedRing

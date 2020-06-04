@@ -1,15 +1,18 @@
 ---
-
 # First Order
+# 1
 - key: "CH3"
   query: "[CH3D1;!R]"
 
+# 2
 - key: "CH2"
   query: "[CH2D2;!R]"
 
+# 3
 - key: "CH"
   query: "[CH1D3;!R]"
 
+# 4
 - key: "C"
   query: "[CH0D4;!R]"
 #
@@ -44,7 +47,8 @@
 #   query: "[CH0;!R]#[CH0;!R]"
 #
 #
-#
+
+# 29
 - key: "OH"
   query: "[OHD1;!R]"
 #
@@ -54,27 +58,33 @@
 #   query: "C=O"
 #
 #
-#
+
+# 127
 - key: "-I"
   query: "[ID1][*!R]"
 
+# 128
 - key: "-Br"
   query: "[BrD1][*!R]"
 
+# 129
 - key: "-F"
   query: "[FD1][*!R]"
 
+# 130
 - key: "-Cl"
   query: "[ClD1][*!R]"
 
 
-
+# 168
 - key: "CH2(cyc)"
   query: "[CH2;R]"
 
+# 169
 - key: "CH(cyc)"
   query: "[CH;R]"
 
+# 170
 - key: "C(cyc)"
   query: "[CH0D4;R]"
 #
@@ -95,18 +105,12 @@
 # - key: "C=N (cyclic)"
 #   query: "[CH0; R]=[N; R]"
 
+# 170
 - key: "O(cyc)"
   query: "[@ROD2@]"
-#
-# - key: "CO (cyclic)"
-#   query: "[CH0; R][OD2, R]"
-#
-# - key: "S (cyclic)"
-#   query: "[@R#16D2@]"
-#
-#
-#
-#
+
+
+# 184
 - key: "-O-"
   query: "[*R][@OD2@;!R][*R]"
 #
@@ -117,21 +121,15 @@
 # - key: "CH=C=C"
 #   query: "[CH;!R]=[CH0; R]=[CH0;!R]"
 #
+# 208
+- key: "-Na"
+  query: "[NaD1][*!R]"
+
+# 209
+- key: "-K"
+  query: "[KD1][*!R]"
 
 
-
-# Second order
-- key: "CHcyc-O-"
-  query: "[RCH][@OD2@;!R][*R]"
-
-- key: "CHcyc-CH2"
-  query: "[R@CH][CH2]"
-#
-- key: "CHcyc-OH"
-  query: "[RCH][OH]"
-
-- key: "Ccyc-CH2"
-  query: "[R@CH0][CH2]"
 
 # In progress
 

@@ -12,9 +12,9 @@ export
 function funcgrouptable()
     table = []
     files = [
-        "funcgroup.yaml",
-        "ring.yaml",
-        "biomolecule.yaml"
+        "firstorder.yaml",
+        "secondorder.yaml",
+        "thirdorder.yaml"
     ]
     dir = joinpath(dirname(@__FILE__), "..", "assets", "funcgroup")
     for f in files
