@@ -82,6 +82,7 @@
 
 # 109
 - key: "CHCl"
+  have: "-Cl"
   query: "[CH1D3][#17]"
 
 # 127
@@ -98,7 +99,7 @@
 
 # 130
 - key: "-Cl"
-  query: "[ClD1][*!R]"
+  query: "[#17][*!R]"
 
 
 # 168
