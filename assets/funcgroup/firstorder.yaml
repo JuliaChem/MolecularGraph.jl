@@ -103,7 +103,7 @@
 
 # 168
 - key: "CH2(cyc)"
-  query: "[CH2;R]"
+  query: "[@CH2D2@]"
 
 # 169
 - key: "CH(cyc)"
