@@ -5,13 +5,13 @@
   query: "[RCH][@OD2@;!R][*R]"
 
 - key: "CHcyc-CH2"
-  query: "[R@CH][CH2]"
+  query: "[R@CH][CH2;!R]"
 #
 - key: "CHcyc-OH"
-  query: "[RCH][OH]"
+  query: "[RCH][OH;!R]"
 
 - key: "Ccyc-CH2"
-  query: "[R@CH0][CH2]"
+  query: "[R@CH0][CH2;!R]"
 
 
 # # 3 membered
