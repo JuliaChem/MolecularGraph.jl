@@ -80,7 +80,7 @@
 
 # 120
 - key: "CCl2F"
-  have: "[F][CH0D4][2Cl]"
+  have: "[ClCH0D4Cl][F]"
 
 # 109
 - key: "CHCl"
