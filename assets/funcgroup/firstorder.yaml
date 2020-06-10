@@ -78,7 +78,9 @@
 #
 #
 
-#
+# 120
+- key: "CCl2F"
+  have: "[F][CH0D4][2Cl]"
 
 # 109
 - key: "CHCl"
