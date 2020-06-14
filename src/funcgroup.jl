@@ -111,6 +111,30 @@ function functionalgroupgraph(mol::GraphMol, method::String)
             end
         end
     end
+
+    if method == "Joback"
+        for rcd in FUNC_GROUP_TABLE_Joback
+            components = fgrouprecord(mol, fgc, rcd)
+            isempty(components) && continue
+            term = Symbol(rcd["key"])
+            setterm!(fgc, term, components)
+            # Update class graph
+            termid = addnode!(fgc, FGTermNode(term))
+            termidmap[term] = termid
+            if haskey(rcd, "have")
+                for k in rcd["have"]
+                    parent = termidmap[Symbol(k)]
+                    addedge!(fgc, parent, termid, FGRelationEdge(:partof))
+                end
+            end
+            if haskey(rcd, "isa")
+                for k in rcd["isa"]
+                    child = termidmap[Symbol(k)]
+                    addedge!(fgc, termid, child, FGRelationEdge(:isa))
+                end
+            end
+        end
+    end
     return fgc
 end
 
