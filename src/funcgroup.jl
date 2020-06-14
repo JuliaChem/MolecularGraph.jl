@@ -26,6 +26,14 @@ function funcgrouptable()
     ]
 
     dir = joinpath(dirname(@__FILE__), "..", "assets", "funcgroup")
+
+    for f in filesHukkerikar
+        src = joinpath(dir, f)
+        dataHukkerikar = YAML.load(open(src))
+        println("loading: $(f)")
+        append!(tableHukkerikar, dataHukkerikar)
+    end
+
     for f in filesJoback
         src = joinpath(dir, f)
         dataJoback = YAML.load(open(src))
