@@ -10,23 +10,32 @@ export
 
 
 function funcgrouptable()
-    table = []
-    files = [
-        "firstorder.yaml",
-        "secondorder.yaml",
-        "thirdorder.yaml"
+    tableHukkerikar = []
+    tableJoback = []
+
+    filesHukkerikar = [
+        "firstorderHukkerikar.yaml",
+        "secondorderHukkerikar.yaml",
+        "thirdorderHukkerikar.yaml"
     ]
+
+    filesJoback = [
+        "firstorderJoback.yaml",
+        "secondorderJoback.yaml",
+        "thirdorderJoback.yaml"
+    ]
+
     dir = joinpath(dirname(@__FILE__), "..", "assets", "funcgroup")
-    for f in files
+    for f in filesJoback
         src = joinpath(dir, f)
-        data = YAML.load(open(src))
+        dataJoback = YAML.load(open(src))
         println("loading: $(f)")
-        append!(table, data)
+        append!(tableJoback, dataJoback)
     end
-    return table
+    return tableHukkerikar, tableJoback
 end
 
-FUNC_GROUP_TABLE = funcgrouptable()
+FUNC_GROUP_TABLE_Hukkerikar, FUNC_GROUP_TABLE_Joback  = funcgrouptable()
 
 
 struct FGTermNode <: AbstractNode
@@ -67,27 +76,30 @@ end
 Generate functional group graph that is a directed acyclic graph similar to
 an ontology graph.
 """
-function functionalgroupgraph(mol::GraphMol)
+function functionalgroupgraph(mol::GraphMol, method::String)
     fgc = FunctionalGroupClassifier()
     termidmap = Dict{Symbol,Int}()
-    for rcd in FUNC_GROUP_TABLE
-        components = fgrouprecord(mol, fgc, rcd)
-        isempty(components) && continue
-        term = Symbol(rcd["key"])
-        setterm!(fgc, term, components)
-        # Update class graph
-        termid = addnode!(fgc, FGTermNode(term))
-        termidmap[term] = termid
-        if haskey(rcd, "have")
-            for k in rcd["have"]
-                parent = termidmap[Symbol(k)]
-                addedge!(fgc, parent, termid, FGRelationEdge(:partof))
+
+    if method == "Hukkerikar"
+        for rcd in FUNC_GROUP_TABLE_Hukkerikar
+            components = fgrouprecord(mol, fgc, rcd)
+            isempty(components) && continue
+            term = Symbol(rcd["key"])
+            setterm!(fgc, term, components)
+            # Update class graph
+            termid = addnode!(fgc, FGTermNode(term))
+            termidmap[term] = termid
+            if haskey(rcd, "have")
+                for k in rcd["have"]
+                    parent = termidmap[Symbol(k)]
+                    addedge!(fgc, parent, termid, FGRelationEdge(:partof))
+                end
             end
-        end
-        if haskey(rcd, "isa")
-            for k in rcd["isa"]
-                child = termidmap[Symbol(k)]
-                addedge!(fgc, termid, child, FGRelationEdge(:isa))
+            if haskey(rcd, "isa")
+                for k in rcd["isa"]
+                    child = termidmap[Symbol(k)]
+                    addedge!(fgc, termid, child, FGRelationEdge(:isa))
+                end
             end
         end
     end
