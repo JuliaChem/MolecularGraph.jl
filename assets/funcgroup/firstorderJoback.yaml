@@ -1,510 +1,76 @@
 ---
-# First Order Kelvyn
-# 1
-- key: "CH3"
+# Joback & Reid method
+
+# Non-ring groups
+- key: "-CH3"
   query: "[CH3D1;!R]"
 
-# 2
-- key: "CH2"
+- key: "-CH2-"
   query: "[CH2D2;!R]"
 
-# 3
-- key: "CH"
+- key: ">CH-"
   query: "[CH1D3;!R]"
 
-# 4
-- key: "C"
+- key: ">C<"
   query: "[CH0D4;!R]"
 
-# 13
-#- key: "CH#C"
-#  query: "[CH]#[CH1]"
+- key: "=CH2"
+  query: "[CH2D1;!R]"
 
-# 14
-#- key: "C#C"
-#  query: "[CHD2]#[CHD2]"
+- key: "=CH-"
+  query: "[CH1D2;!R]"
 
-# 15
-- key: "aCH"
-  query: "[cD2]"
+- key: "=C<"
+  query: "[CH0D3;!R]"
 
-# 31
-- key: "COOH"
-  query: "[OD1]=[CD3][OH]"
-# 33
-- key: "CH3CO"
-  query: "[CH3D1][CD3]=[OD1]"
+- key: "=C="
+  query: "[CH0D2;!R]"
 
-# 38
-- key: "CHO"
-  query: "[CH]=[OD1]"
+- key: "≡CH"
+  query: "[CH1D1;!R]"
 
-# - key: "CH2=CH"
-#   query: "[CH2;!R]=[CH;!R]"
-#
-# - key: "CH=CH"
-#   query: "[CH;!R]=[CH;!R]"
-#
-# - key: "CH2=C"
-#   query: "[CH2;!R]=[CH0;!R]"
-#
-# - key: "CH=C"
-#   query: "[CH;!R]=[CH0;!R]"
-#
-# - key: "C=C"
-#   query: "[CH0;!R]=[CH0;!R]"
-#
-# - key: "CH2=C=CH"
-#   query: "[CH2;!R]=[CH0;!R]=[CH1;!R]"
-#
-# - key: "CH2=C=C"
-#   query: "[CH2;!R]=[CH0;!R]=[CH0;!R]"
-#
-# - key: "C=C=C"
-#   query: "[CH0;!R]=[CH0;!R]=[CH0;!R]"
-#
-# - key: "CH#C"
-#   query: "[CH1;!R]#[CH0;!R]"
-#
-# - key: "C#C"
-#   query: "[CH0;!R]#[CH0;!R]"
-#
-#
+- key: "≡C-"
+  query: "[CH0D2;!R]"
 
-# 29
-- key: "OH"
-  query: "[OHD1;!R]"
-#
-#
-#
+# Ring groups
+- key: "-CH2-"
+  query: "[CH2D2;!R]"
 
-# 120
-- key: "CCl2F"
-  have: "[A][CH0D4]([#17])([#17])[#9]"
+- key: ">CH-"
+  query: "[CH1D3;R]"
 
-# 109
-- key: "CHCl"
-  query: "[CH1D3][#17]"
-
-# 127
-- key: "-I"
-  query: "[ID1][*!R]"
-
-# 128
-- key: "-Br"
-  query: "[BrD1][*!R]"
-
-# 129
-- key: "-F"
-  query: "[FD1][*!R]"
-
-# 130
-- key: "-Cl"
-  query: "[#17][*!R]"
-
-
-# 168
-- key: "CH2(cyc)"
-  query: "[CH2;R]"
-
-# 169
-- key: "CH(cyc)"
-  query: "[CH;R]"
-
-# 170
-- key: "C(cyc)"
+- key: ">C<"
   query: "[CH0D4;R]"
-#
-#
-#
-#
-# - key: "CH2=C=CH"
-#   query: "[CH2;!R]=C=[CH;!R]"
-#
-#
-#
-# - key: "N (cyclic)"
-#   query: "[@R#7D2@]"
-#
-# - key: "CH=N (cyclic)"
-#   query: "[CH1; R]=[N; R]"
-#
-# - key: "C=N (cyclic)"
-#   query: "[CH0; R]=[N; R]"
 
-# 170
-- key: "O(cyc)"
-  query: "[@ROD2@]"
+- key: "=CH-"
+  query: "[CH1D2;R]"
 
+- key: "=C<"
+  query: "[CH0D3;R]"
 
-# 184
+# Halogen groups
+- key: "-F"
+  query: "[FD1]"
+
+- key: "-Cl"
+  query: "[#17]"
+
+- key: "-Br"
+  query: "[BrD1]"
+
+- key: "-I"
+  query: "[ID1]"
+
+# Oxigen groups
+- key: "-OH (alcohol)"
+  query: "[OHD1]"
+
+# Oxigen groups
+- key: "-OH (phenol)"
+  query: "[OHD1]"
+
 - key: "-O-"
-  query: "[*R][@OD2@;!R][*R]"
-#
-#
-# - key: "CH=C=CH"
-#   query: "[CH;!R]=[CH0, R]=[CH;!R]"
-#
-# - key: "CH=C=C"
-#   query: "[CH;!R]=[CH0; R]=[CH0;!R]"
-#
-# 208
-- key: "-Na"
-  query: "[NaD1][*!R]"
+  query: "[OD2;!R]"
 
-# 209
-- key: "-K"
-  query: "[KD1][*!R]"
-
-
-
-# In progress
-
-
-# Carbon
-#
-# - key: Alkene
-#   query: "C=C"
-# - key: Alkyne
-#   query: "C#C"
-# - key: Allene
-#   query: "C=C=C"
-#
-# - key: Diene
-#   have: [Alkene]
-#   query: "C=CC=C"
-#
-# - key: Triene
-#   have: [Diene]
-#   query: "C=CC=CC=C"
-#
-#
-# # Oxygen
-#
-# - key: Alcohol
-#   query: "[#6][OD1]"
-# - key: PrimaryAlcohol
-#   isa: [Alcohol]
-#   query: "[CD2][OD1]"
-# - key: SecAlcohol
-#   isa: [Alcohol]
-#   query: "[CD3][OD1]"
-# - key: TertAlcohol
-#   isa: [Alcohol]
-#   query: "[CD4][OD1]"
-# - key: AromaticAlcohol
-#   isa: [Alcohol]
-#   query: "c[OD1]"
-#
-# - key: Carbonyl
-#   query: "C=O"
-# - key: Ketone
-#   have: [Carbonyl]
-#   query: "[#6]C(=O)[#6]"
-# - key: Aldehyde
-#   have: [Carbonyl]
-#   query: "[#6][CD2]=O"
-# - key: Acetyl
-#   have: [Carbonyl]
-#   query: "C(=O)[CD1]"
-# - key: Ketene
-#   have: [Alkene, Carbonyl]
-#   query: "C=C=O"
-#
-# - key: Ether
-#   query: "[#6]O[#6]"
-# - key: AromaticEther
-#   isa: [Ether]
-#   query: "cO[#6]"
-# - key: CyclicEther
-#   isa: [Ether]
-#   query: "[#6]@O@[#6]"
-#
-# - key: AromaticOxygen
-#   query: "o"
-#
-# - key: Peroxide
-#   query: "[OD2][OD2]"
-#
-# - key: Carboxyl
-#   have: [Carbonyl, Alcohol]
-#   query: "O=CO"
-# - key: Pivaloyl
-#   have: [Carboxyl]
-#   query: "OC(=O)C([CD1])([CD1])[CD1]"
-# - key: Pivoxil
-#   have: [Pivaloyl, Ether]
-#   query: "OCOC(=O)C([CD1])([CD1])[CD1]"
-#
-# - key: Ester
-#   have: [Carbonyl, Ether]
-#   query: "O=CO[#6]"
-#
-# - key: Acetal
-#   have: [Ether]
-#   query: "[#6]OCO[#6]"
-#
-# - key: Hemiacetal
-#   have: [Ether, Alcohol]
-#   query: "[#6]OC[OD1]"
-#
-# - key: GemDiol
-#   have: [Alcohol]
-#   query: "[OD1]C[OD1]"
-#
-#
-#
-# # Nitrogen
-#
-# - key: PrimaryAmine
-#   query: "C[ND1]"
-#
-# - key: SecAmine
-#   query: "C[ND2]C"
-#
-# - key: TertAmine
-#   query: "C[ND3](C)C"
-#
-# - key: CyclicAmine
-#   query: "C@N@C"
-#
-# - key: QuartAmmonium
-#   query: "C[N+](C)(C)C"
-#
-# - key: AromaticAmine
-#   query: "cN"
-#
-# - key: AromaticNitrogen
-#   query: "n"
-#
-# - key: Imine
-#   query: "C=N"
-#
-# - key: Nitrile
-#   query: "C#N"
-#
-# - key: Hydrazine
-#   query: "[N+0]-[N+0]"
-#
-# - key: Azo
-#   query: "[N+0]=[N+0]"
-#
-# - key: Azide
-#   any: ["N=[N+D2]=[N-D1]", "[N-][N+D2]#[ND1]"]
-#
-# - key: Amidine
-#   have: [Imine]
-#   query: "NC=N"
-#
-# - key: Guanidine
-#   have: [Amidine]
-#   query: "NC(=N)N"
-#
-#
-#
-# # O, N
-#
-# - key: Amide
-#   have: [Carbonyl]
-#   query: "O=CN"
-# - key: Carbamoyl
-#   isa: [Amide]
-#   query: "O=C[ND1]"
-#
-# - key: Nitro
-#   query: "O=[N+][O-]"
-#
-# - key: Nitroso
-#   query: "[N+0]=[O+0]"
-#
-# - key: AmineOxide
-#   any: ["C[N+]([O-])CC", "[n+][O-]"]
-#
-# - key: Oxime
-#   have: [Imine]
-#   query: "C=NO"
-#
-# - key: Cyanate
-#   have: [Nitrile]
-#   query: "OC#[ND1]"
-#
-# - key: Isocyanate
-#   have: [Imine, Carbonyl]
-#   query: "N=C=[OD1]"
-#
-#
-#
-# # Sulfur
-#
-# - key: Thiol
-#   query: "C[SD1]"
-#
-# - key: AromaticThiol
-#   query: "c[SD1]"
-#
-# - key: Thioether
-#   query: "[#6]S[#6]"
-#
-# - key: AromaticSulfur
-#   query: "asa"
-#
-# - key: Disulfide
-#   query: "[SD2][SD2]"
-#
-#
-# - key: Thiocarbonyl
-#   query: "C=S"
-#
-# - key: Thial
-#   have: [Thiocarbonyl]
-#   query: "[#6][CD2]=S"
-#
-# - key: Thioketone
-#   have: [Thiocarbonyl]
-#   query: "[#6]C(=S)[#6]"
-#
-# - key: Dithiocarboxylate
-#   have: [Thiocarbonyl]
-#   query: "S=CS"
-#
-#
-#
-# # O, N, S
-#
-# - key: Sulfoxide
-#   any: ["[#16]=O", "[#16+][O-]"]
-#
-# - key: Sulfinate
-#   have: [Sulfoxide]
-#   query: "O=SO"
-#
-#
-# - key: Sulfone
-#   query: "[#16](=O)=O"
-#
-# - key: Sulfonate
-#   have: [Sulfone]
-#   query: "O=S(=O)O"
-#
-# - key: Sulfoneamide
-#   have: [Sulfone]
-#   query: "O=S(=O)N"
-# - key: Sulfamide
-#   have: [Sulfoneamide]
-#   query: "NS(=O)(=O)N"
-#
-# - key: Mesyl
-#   have: [Sulfone]
-#   query: "O=S(=O)[CD1]"
-# - key: Mesylate
-#   have: [Mesyl]
-#   query: "OS(=O)(=O)[CD1]"
-#
-# - key: Thiocyanate
-#   have: [Nitrile]
-#   query: "S-C#[ND1]"
-#
-# - key: Isothiocyanate
-#   have: [Imine, Thiocarbonyl]
-#   query: "N=C=[SD1]"
-#
-#
-#
-# # Phosphorus
-#
-# - key: Organophosphorus
-#   query: "[#6]P"
-#
-# - key: Phosphonate
-#   have: [Organophosphorus]
-#   query: "[#6]P(=O)(O)O"
-#
-# - key: Phosphate
-#   query: "OP(~O)(~O)~O"
-#
-# - key: Phosphoramide
-#   query: "NP(=O)(N)N"
-#
-# - key: Phosphoramidate
-#   query: "NP(~O)(~O)~O"
-#
-# - key: Thiophosphate
-#   query: "S~P~O"
-#
-# - key: Thiophosphoramidate
-#   have: [Thiophosphate]
-#   query: "NP(~S)(~[O,S])~[O,S]"
-#
-#
-#
-# # Boron
-#
-# - key: Organoborane
-#   query: "[#6]B"
-#
-# - key: Boronate
-#   have: [Organoborane]
-#   query: "[#6]B(O)O"
-#
-# - key: Borinate
-#   have: [Organoborane]
-#   query: "[#6]B(O)[#6]"
-#
-#
-#
-# # Halogen
-#
-# - key: Alkylhalide
-#   query: "C[F,Cl,Br,I]"
-# - key: Alkylfluoride
-#   isa: [Alkylhalide]
-#   query: "CF"
-# - key: Alkylchloride
-#   isa: [Alkylhalide]
-#   query: "CCl"
-# - key: Alkylbromide
-#   isa: [Alkylhalide]
-#   query: "CBr"
-# - key: Alkyliodide
-#   isa: [Alkylhalide]
-#   query: "CI"
-#
-# - key: Arylhalide
-#   query: "c[F,Cl,Br,I]"
-# - key: Arylfluoride
-#   isa: [Arylhalide]
-#   query: "cF"
-# - key: Arylchloride
-#   isa: [Arylhalide]
-#   query: "cCl"
-# - key: Arylbromide
-#   isa: [Arylhalide]
-#   query: "cBr"
-# - key: Aryliodide
-#   isa: [Arylhalide]
-#   query: "cI"
-#
-# - key: Acylhalide
-#   have: [Alkylhalide]
-#   query: "C(=O)[F,Cl,Br,I]"
-# - key: Acylfluoride
-#   have: [Alkylfluoride]
-#   isa: [Acylhalide]
-#   query: "C(=O)F"
-# - key: Acylchloride
-#   have: [Alkylchloride]
-#   isa: [Acylhalide]
-#   query: "C(=O)Cl"
-# - key: Acylbromide
-#   have: [Alkylbromide]
-#   isa: [Acylhalide]
-#   query: "C(=O)Br"
-# - key: Acyliodide
-#   have: [Alkyliodide]
-#   isa: [Acylhalide]
-#   query: "C(=O)I"
-#
-#
-# - key: Triflate
-#   have: [Sulfonate]
-#   query: "OS(=O)(=O)C(F)(F)(F)"
+- key: "-O-"
+  query: "[OD2;R]"
