@@ -1,1 +1,13 @@
 ---
+# Halogen groups
+- key: "-F"
+  query: "[FD1]"
+
+- key: "-Cl"
+  query: "[#17]"
+
+- key: "-Br"
+  query: "[BrD1]"
+
+- key: "-I"
+  query: "[ID1]"
