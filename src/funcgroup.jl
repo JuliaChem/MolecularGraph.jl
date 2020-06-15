@@ -23,9 +23,9 @@ function funcgrouptable()
         "Joback_Non_ring_Groups.yaml",
         "Joback_Ring_Groups.yaml",
         "Joback_Oxygen_Groups.yaml",
-        "Joback_Halogen_Groups",
-        "Joback_Nitrogen_Groups",
-        "Joback_Sulfur_Groups"
+        "Joback_Halogen_Groups.yaml",
+        "Joback_Nitrogen_Groups.yaml",
+        "Joback_Sulfur_Groups.yaml"
     ]
 
     dir = joinpath(dirname(@__FILE__), "..", "assets", "funcgroup")
