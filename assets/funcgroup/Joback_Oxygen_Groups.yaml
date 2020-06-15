@@ -13,7 +13,7 @@
   query: "[OD2;R]"
 
 - key: ">C=O (non-ring)"
-  query: "[CD2;!R][OD1;!R]"
+  query: "[CD3;!R][OD1;!R]"
 
 #- key: ">C=O (ring)"
 #  query: "[CH0D3;R][OX1;R]"
