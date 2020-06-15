@@ -27,13 +27,13 @@
   query: "[CH1D2;!R]"
 
 # 7
-- key: =C<
+- key: CC
   query: "[CH0D3;!R]"
 
 - key: ">C=O (non-ring)"
-  isa: [=C<]
+  isa: [CC]
   query: "[CD3;!R]=[O;!R]"
-  
+
 # 8
 - key: "=C="
   query: "[CH0D2;!R]"
