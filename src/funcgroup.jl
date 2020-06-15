@@ -14,15 +14,18 @@ function funcgrouptable()
     tableJoback = []
 
     filesHukkerikar = [
-        "firstorderHukkerikar.yaml",
-        "secondorderHukkerikar.yaml",
-        "thirdorderHukkerikar.yaml"
+        "Hukkerikarfirstorder.yaml",
+        "Hukkerikarsecondorder.yaml",
+        "Hukkerikarthirdorder.yaml"
     ]
 
     filesJoback = [
-        "firstorderJoback.yaml",
-        "secondorderJoback.yaml",
-        "thirdorderJoback.yaml"
+        "Joback_Non_ring_Groups.yaml",
+        "Joback_Ring_Groups.yaml",
+        "Joback_Oxygen_Groups.yaml",
+        "Joback_Halogen_Groups",
+        "Joback_Nitrogen_Groups",
+        "Joback_Sulfur_Groups"
     ]
 
     dir = joinpath(dirname(@__FILE__), "..", "assets", "funcgroup")

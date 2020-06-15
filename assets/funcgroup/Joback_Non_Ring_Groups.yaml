@@ -2,48 +2,42 @@
 # Joback & Reid method
 
 # Non-ring groups
+# 1
 - key: "-CH3"
   query: "[CH3D1;!R]"
 
+# 2
 - key: "-CH2-"
   query: "[CH2D2;!R]"
 
+# 3
 - key: ">CH-"
   query: "[CH1D3;!R]"
 
+# 4
 - key: ">C<"
   query: "[CH0D4;!R]"
 
+# 5
 - key: "=CH2"
   query: "[CH2D1;!R]"
 
+# 6
 - key: "=CH-"
   query: "[CH1D2;!R]"
 
+# 7
 - key: "=C<"
   query: "[CH0D3;!R]"
 
+# 8
 - key: "=C="
   query: "[CH0D2;!R]"
 
+# 9
 - key: "≡CH"
   query: "[CH1D1;!R]"
 
+# 10
 - key: "≡C-"
   query: "[CH0D2;!R]"
-
-# Ring groups
-- key: "-CH2-"
-  query: "[CH2D2;!R]"
-
-- key: ">CH-"
-  query: "[CH1D3;R]"
-
-- key: ">C<"
-  query: "[CH0D4;R]"
-
-- key: "=CH-"
-  query: "[CH1D2;R]"
-
-- key: "=C<"
-  query: "[CH0D3;R]"

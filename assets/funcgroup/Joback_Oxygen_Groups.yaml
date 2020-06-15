@@ -1,10 +1,13 @@
 ---
-
 # Oxigen groups
 - key: "-OH (alcohol)"
-  query: "[OHD1]"
+  isa: "[#6][OD1]"
+  query: "[A][OHD1]"
 
-# Oxigen groups
+- key: AromaticAlcohol
+  isa: "[#6][OD1]"
+  query: "[a][OD1]"
+
 - key: "-OH (phenol)"
   query: "[OHD1]"
 

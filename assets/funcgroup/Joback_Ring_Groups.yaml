@@ -1,0 +1,23 @@
+---
+
+# Ring groups
+
+# 1
+- key: "-CH2-"
+  query: "[CH2D2;R]"
+
+# 2
+- key: ">CH-"
+  query: "[CH1D3;R]"
+
+# 3
+- key: ">C<"
+  query: "[CH0D4;R]"
+
+# 4
+- key: "=CH-"
+  query: "[CH1D2;R]"
+
+# 5
+- key: "=C<"
+  query: "[CH0D3;R]"
