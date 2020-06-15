@@ -32,7 +32,7 @@
 
 - key: ">C=O (non-ring)"
   isa: [CC]
-  query: "[CD3;!R]=[O;!R]"
+  query: "[CH0D3;!R]=[O;!R]"
 
 # 8
 - key: "=C="
