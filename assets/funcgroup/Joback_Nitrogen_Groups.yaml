@@ -1,1 +1,5 @@
 ---
+# Non-ring groups
+# 1
+- key: "-CH5"
+  query: "[CH3D1;!R]"
