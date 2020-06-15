@@ -16,8 +16,9 @@
   isa: ["=C<"]
   query: "[CD3;!R]=[O;!R]"
 
-#- key: ">C=O (ring)"
-#  query: "[CH0D3;R][OX1;R]"
+- key: ">C=O (ring)"
+  isa: [=C<]
+  query: "[CD3;R]=[O;R]"
 
 - key: "O=CH- (aldehyde)"
   query: "[OD1;!R][CH1D1;!R]"
