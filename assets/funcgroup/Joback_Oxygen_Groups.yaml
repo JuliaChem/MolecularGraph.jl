@@ -13,6 +13,7 @@
   query: "[OD2;R]"
 
 - key: ">C=O (non-ring)"
+  isa: ["=C<"]
   query: "[CD3;!R]=[O;!R]"
 
 #- key: ">C=O (ring)"
