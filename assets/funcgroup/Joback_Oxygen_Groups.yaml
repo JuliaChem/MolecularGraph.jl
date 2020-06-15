@@ -1,11 +1,9 @@
 ---
 # Oxigen groups
 - key: "-OH (alcohol)"
-  isa: "[#6][OD1]"
   query: "[A][OHD1]"
 
 - key: AromaticAlcohol
-  isa: "[#6][OD1]"
   query: "[a][OD1]"
 
 - key: "-OH (phenol)"
