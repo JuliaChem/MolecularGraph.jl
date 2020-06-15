@@ -13,10 +13,10 @@
   query: "[OD2;R]"
 
 - key: ">C=O (non-ring)"
-  query: "[CH0D3;!R][OD1;!R]"
+  query: "[CH0D3;!R][OX1;!R]"
 
 - key: ">C=O (ring)"
-  query: "[CH0D3;R][OD1;R]"
+  query: "[CH0D3;R][OX1;R]"
 
 - key: "O=CH- (aldehyde)"
   query: "[OD1;!R][CH1D1;!R]"
