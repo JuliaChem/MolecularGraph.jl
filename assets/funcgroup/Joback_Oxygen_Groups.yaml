@@ -13,11 +13,10 @@
   query: "[OD2;R]"
 
 - key: ">C=O (non-ring)"
-  isa: ["=C<"]
+  isa: [=C<]
   query: "[CD3;!R]=[O;!R]"
 
 - key: ">C=O (ring)"
-  isa: [=C<]
   query: "[CD3;R]=[O;R]"
 
 - key: "O=CH- (aldehyde)"
