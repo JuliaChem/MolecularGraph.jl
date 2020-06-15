@@ -21,11 +21,11 @@
 - key: "O=CH- (aldehyde)"
   query: "[OD1;!R][CH1D1;!R]"
 
-#- key: "-COOH (acid)"
-#  query: "[CH0D3](=O)[OD2]"
+- key: "-COOH (acid)"
+  query: "[CH0D3](=O)[OD2]"
 
 #- key: "-COO- (ester)"
 #  query: "[CH0D3](=O)[OD2][C]"
 
-- key: "=O (other)"
-  query: "[OD1; !$([C])]"
+#- key: "=O (other)"
+#  query: "[OD1; !$([C])]"
