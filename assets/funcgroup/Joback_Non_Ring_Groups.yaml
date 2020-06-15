@@ -30,7 +30,7 @@
 - key: CC
   query: "[CH0D3;!R]"
 
-- key: >C=O(non-ring)
+- key: C=O(non-ring)
   isa: [CC]
   query: "[CH0D3;!R]=[O;!R]"
 
