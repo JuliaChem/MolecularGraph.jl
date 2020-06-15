@@ -3,11 +3,8 @@
 - key: "-OH (alcohol)"
   query: "[A][OHD1]"
 
-- key: AromaticAlcohol
-  query: "[a][OD1]"
-
 - key: "-OH (phenol)"
-  query: "[OHD1]"
+  query: "[a][OHD1]"
 
 - key: "-O- (non-ring)"
   query: "[OD2;!R]"
