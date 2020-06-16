@@ -12,7 +12,7 @@
 - key: "-O- (ring)"
   query: "[OD2;R]"
 
-- key: ">C=O(non-ring)"
+- key: ">C=O (non-ring)"
   query: "[CH0D3;!R]=O"
 
 - key: ">C=O (ring)"
