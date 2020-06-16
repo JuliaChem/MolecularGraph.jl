@@ -16,8 +16,8 @@
 
 # 4
 - key: "=CH-"
-  query: "[CH1D2;R]"
+  any: ["[CH1D2]","[cH1D2]"]
 
 # 5
 - key: "=C<"
-  query: "[CH0D3;R]"
+  any: ["[CH0D3]","[cH0D3]"]
