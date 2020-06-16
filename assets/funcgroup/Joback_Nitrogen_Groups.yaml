@@ -1,5 +1,5 @@
 ---
 # Non-ring groups
 # 1
-- key: "-CH5"
-  query: "[CH3D1;!R]"
+- key: "-NH2"
+  query: "[H2ND1;!R]"
