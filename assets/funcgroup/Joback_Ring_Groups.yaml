@@ -16,8 +16,8 @@
 
 # 4
 - key: "=CH-"
-  any: ["[CH1D2, R]","[cH1D2]"]
+  any: ["[CH1D2;R]","[cH1D2]"]
 
 # 5
 - key: "=C<"
-  any: ["[CH0D3, R]","[cH0D3]"]
+  any: ["[CH0D3;R]","[cH0D3]"]
