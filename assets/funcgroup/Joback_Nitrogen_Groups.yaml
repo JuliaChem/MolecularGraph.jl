@@ -3,3 +3,35 @@
 # 1
 - key: "-NH2"
   query: "[H2ND1;!R]"
+
+# 2
+- key: ">NH (non-ring)"
+  query: "[H1ND2;!R]"
+
+# 3
+- key: ">NH (ring)"
+  query: "[H1ND2;R]"
+
+# 4
+- key: ">N- (non-ring)"
+  query: "[H0ND3;!R]"
+
+# 5
+- key: "-N= (non-ring)"
+  query: "[H0ND2;!R]"
+
+# 6
+- key: "-N= (ring)"
+  query: "[H0ND2;R]"
+
+# 7
+- key: "=NH"
+  query: "[H1ND1]"
+
+# 8
+- key: "-CH"
+  query: "[CD1][N]"
+
+# 9
+- key: "-NO2"
+  query: "[OD1][ND1][OD1]"
