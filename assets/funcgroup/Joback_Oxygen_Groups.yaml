@@ -12,10 +12,11 @@
 - key: "-O- (ring)"
   query: "[OD2;R]"
 
-
+- key: ">C=O(non-ring)"
+  query: "[CH0D3;!R]=O"
 
 - key: ">C=O (ring)"
-  query: "[CD3;R]=[O;R]"
+  query: "[CD3;R]=O"
 
 - key: "O=CH- (aldehyde)"
   query: "[OD1;!R][CH1D1;!R]"
@@ -26,5 +27,5 @@
 - key: "-COO- (ester)"
   query: "[CH0D3](=O)[OD2][C]"
 
-#- key: "=O (other)"
-#  query: "[OD1; !C]"
+- key: "=O (other)"
+  query: "[OD1; !$(C=O)]"
