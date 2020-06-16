@@ -4,11 +4,11 @@
 
 # 1
 - key: "-CH2-"
-  query: "[CH2D2;R]"
+  any: ["[CH2D2;R]","[cH2D2]"]
 
 # 2
 - key: ">CH-"
-  query: "[CH1D3;R]"
+  any: ["[CH1D3;R]","[cH1D3]"]
 
 # 3
 - key: ">C<"
@@ -16,8 +16,8 @@
 
 # 4
 - key: "=CH-"
-  any: ["[CH1D2]","[cH1D2]"]
+  any: ["[CH1D2, R]","[cH1D2]"]
 
 # 5
 - key: "=C<"
-  any: ["[CH0D3]","[cH0D3]"]
+  any: ["[CH0D3, R]","[cH0D3]"]
