@@ -19,7 +19,7 @@
   query: "[CD3;R]=O"
 
 - key: "O=CH- (aldehyde)"
-  query: "O=[CH1D1;!R]"
+  query: "O=[CH1D3;!R]"
 
 - key: "-COOH (acid)"
   query: "[CH0D3](=O)[OD2]"
