@@ -7,17 +7,17 @@
   any: ["[CH2D2;R]","[cH2D2]"]
 
 # 2
-- key: ">CH-"
+- key: ">CH- (ring)"
   any: ["[CH1D3;R]","[cH1D3]"]
 
 # 3
-- key: ">C<"
+- key: ">C< (ring)"
   query: "[CH0D4;R]"
 
 # 4
-- key: "=CH-"
+- key: "=CH- (ring)"
   any: ["[CH1D2;R]","[cH1D2]"]
 
 # 5
-- key: "=C<"
+- key: "=C< (ring)"
   any: ["[CH0D3;R]","[cH0D3]"]
