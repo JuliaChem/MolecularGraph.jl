@@ -34,5 +34,5 @@
 
 # 9
 - key: "-NO2"
-  have: ["=O (other)"]
+  have: ["=O (other)",">N- (non-ring)"]
   query: "O=[ND3]=O"
