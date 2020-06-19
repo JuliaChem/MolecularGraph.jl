@@ -25,7 +25,7 @@
 
 - key: "-COOH (acid)"
   have: [">C=O (non-ring)","-O- (non-ring)"]
-  query: "[CH0D3](=O)[OD2]"
+  query: "[CH0D3](=O)[OH]"
 
 - key: "-COO- (ester)"
   have: ["-COOH (acid)"]
