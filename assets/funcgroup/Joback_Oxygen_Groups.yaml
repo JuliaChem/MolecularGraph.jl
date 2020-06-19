@@ -13,6 +13,7 @@
   query: "[OD2;R]"
 
 - key: ">C=O (non-ring)"
+  have: ["=C<"]
   query: "[CH0D3;!R]=O"
 
 - key: ">C=O (ring)"
