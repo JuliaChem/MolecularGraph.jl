@@ -3,7 +3,7 @@
 # Ring groups
 
 # 1
-- key: "-CH2-"
+- key: "-CH2- (ring)"
   any: ["[CH2D2;R]","[cH2D2]"]
 
 # 2
