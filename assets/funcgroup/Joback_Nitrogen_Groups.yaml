@@ -34,4 +34,5 @@
 
 # 9
 - key: "-NO2"
+  have: ["=O (other)"]
   query: "[OD1][ND1][OD1]"
