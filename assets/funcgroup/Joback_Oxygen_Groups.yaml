@@ -33,4 +33,4 @@
   query: "[CH0D3](=O)[OD2][C]"
 
 - key: "=O (other)"
-  query: "[OD1]"
+  query: "O=[A]"
