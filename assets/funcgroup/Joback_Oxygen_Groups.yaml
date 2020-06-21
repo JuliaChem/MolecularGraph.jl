@@ -30,7 +30,7 @@
 
 - key: "-COO- (ester)"
   #have: ["-COOH (acid)"]
-  query: "[CH0D3](=O)[OD2][C]"
+  query: "O=[CH0D3][OD2]"
 
 - key: "=O (other)"
   query: "O=[A]"
