@@ -17,7 +17,7 @@
   query: "[CH0D3;!R]=[OX1]"
 
 - key: ">C=O (ring)"
-  #have: ["=C<"]
+  have: ["=C<"]
   query: "[CH0X3;R]=O"
 
 - key: "O=CH- (aldehyde)"
