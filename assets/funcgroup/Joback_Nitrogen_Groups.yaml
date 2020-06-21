@@ -22,7 +22,7 @@
 
 # 6
 - key: "-N= (ring)"
-  query: "[N;R]"
+  query: "[n]"
 
 # 7
 - key: "=NH"
