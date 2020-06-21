@@ -25,7 +25,7 @@
   query: "O=[CH1D2;!R]"
 
 - key: "-COOH (acid)"
-  have: ["=C<"]
+  have: ["=C<",">C=O (non-ring)"]
   query: "O=[C][OH]"
 
 - key: "-COO- (ester)"
