@@ -27,7 +27,7 @@
   query: "O=[C][OH]"
 
 - key: "-COO- (ester)"
-  have: [">C=O (non-ring)"]
+  have: [">C=O (non-ring)","-O- (non-ring)"]
   query: "O=[CH0D3][OD2]"
 
 #- key: "=O (other)"
