@@ -25,11 +25,10 @@
   query: "O=[CH1D2;!R]"
 
 - key: "-COOH (acid)"
-  have: [["=C<",">C=O (non-ring)"]]
+  have: [">C=O (non-ring)"]
   query: "O=[C][OH]"
 
 - key: "-COO- (ester)"
-  have: ["=C<"]
   query: "O=[CH0D3][OD2]"
 
 - key: "=O (other)"
