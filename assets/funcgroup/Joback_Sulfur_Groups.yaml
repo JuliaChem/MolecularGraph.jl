@@ -5,9 +5,9 @@
   query: "[H1SD1]"
 
 # 2
-- key: "-S-"
+- key: "-S- (non-ring)"
   query: "[H0SD2;!R]"
 
 # 3
-- key: "-S-"
+- key: "-S- (ring)"
   query: "[H0SD2;R]"
