@@ -10,7 +10,7 @@
 
 # 3
 - key: ">NH (ring)"
-  query: "[NX3H;R]"
+  query: "[NX3H1;R]"
 
 # 4
 - key: ">N- (non-ring)"
