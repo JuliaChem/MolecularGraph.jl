@@ -8,7 +8,7 @@
 
 # 2
 - key: ">CH- (ring)"
-  any: ["[R;CX4H]","[cX4H]"]
+  have: ["[CH1D3;R]","[cH1D3;R]"]
 
 # 3
 - key: ">C< (ring)"
