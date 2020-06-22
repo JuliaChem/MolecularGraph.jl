@@ -10,7 +10,7 @@
 
 # 3
 - key: ">NH (ring)"
-  query: "[NX3H1;R]"
+  query: "[NX3H;R]"
 
 # 4
 - key: ">N- (non-ring)"
@@ -22,7 +22,7 @@
 
 # 6
 - key: "-N= (ring)"
-  query: "[nD2H0;R]"
+  query: "[nD2H0]"
 
 # 7
 - key: "=NH"
