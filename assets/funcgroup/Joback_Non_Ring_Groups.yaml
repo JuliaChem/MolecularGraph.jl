@@ -12,7 +12,7 @@
 
 # 3
 - key: ">CH-"
-  query: "[R;CX4H]"
+  query: "[!R;CX4H]"
 
 # 4
 - key: ">C<"
