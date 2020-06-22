@@ -30,7 +30,7 @@
 
 # 8
 - key: "-CN"
-  query: "[CD1][N]"
+  query: "[C]#[N]"
 
 # 9
 - key: "-NO2"
