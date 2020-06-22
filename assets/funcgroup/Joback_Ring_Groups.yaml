@@ -8,7 +8,7 @@
 
 # 2
 - key: ">CH- (ring)"
-  have: "[R;CX4H]"
+  query: "[R;CX4H]"
 
 # 3
 - key: ">C< (ring)"
