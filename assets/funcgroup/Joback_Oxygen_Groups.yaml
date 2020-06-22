@@ -33,4 +33,4 @@
   query: "O=[CH0D3][OD2]"
 
 - key: "=O (other)"
-  any: "O=[A; !C]"
+  query: "O=[A; !C]"
