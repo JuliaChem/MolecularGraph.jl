@@ -6,7 +6,7 @@
 
 # 2
 - key: ">NH (non-ring)"
-  query: "[H1ND2;!R]"
+  query: "[NX3H1;!R]"
 
 # 3
 - key: ">NH (ring)"
@@ -18,20 +18,20 @@
 
 # 5
 - key: "-N= (non-ring)"
-  query: "[H0ND2;!R]"
+  query: "[#7X2H0;!R]"
 
 # 6
 - key: "-N= (ring)"
-  query: "[nD2H0]"
+  query: "[#7X2H0;R]"
 
 # 7
 - key: "=NH"
-  query: "[H1ND1]"
+  query: "[#7X2H1]"
 
 # 8
 - key: "-CN"
   have: ["≡C-"]
-  query: "[C]#[N]"
+  query: "[#6X2]#[#7X1H0]"
 
 # 9
 - key: "-NO2"
