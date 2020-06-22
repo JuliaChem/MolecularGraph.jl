@@ -13,8 +13,8 @@
   query: "[OD2;R]"
 
 - key: ">C=O (non-ring)"
-  have: ["=C<"]
-  query: "[CH0D3;!R]=[OX1]"
+  #have: ["=C<"]
+  query: "[$([CX3H0](=[OX1]));!$([CX3](=[OX1])-[OX2]);!R]=O"
 
 - key: ">C=O (ring)"
   have: ["=C< (ring)"]
