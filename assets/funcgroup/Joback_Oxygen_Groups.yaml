@@ -33,4 +33,4 @@
   query: "O=[CH0D3][OD2]"
 
 - key: "=O (other)"
-  have: "[#8;D1]"
+  have: "[OX1H0]"
