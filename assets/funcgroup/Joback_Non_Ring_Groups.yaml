@@ -36,8 +36,8 @@
 
 # 9
 - key: "≡CH"
-  query: "[CH1D1;!R]"
+  query: "[CX2H1];!R]#[!#7]"
 
 # 10
 - key: "≡C-"
-  query: "[*]#[CH0D2;!R]"
+  query: "[CX2H0];!R]#[!#7]"
