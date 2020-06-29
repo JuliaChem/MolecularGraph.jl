@@ -33,4 +33,4 @@
   query: "O=[CH0D3][OD2]"
 
 - key: "=O (other)"
-  query: "[OX1H0;!$([OX1H0]∼[#6X3]);!$([OX1H0]∼[#7X3]∼[#8])]"
+  query: "[OX1H0;!$([OX1H0][#6X3]);!$([OX1H0][#7X3][#8])]"
