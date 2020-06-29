@@ -6,8 +6,8 @@
 
 # 2
 - key: "-S- (non-ring)"
-  query: "[H0SD2;!R]"
+  query: "[#16X2H0;!R]"
 
 # 3
 - key: "-S- (ring)"
-  query: "[H0SD2;R]"
+  query: "[#16X2H0;R]"
