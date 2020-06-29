@@ -21,7 +21,7 @@
   any: ["[cD3]=O","[CH0D3;R]=O"]
 
 - key: "O=CH- (aldehyde)"
-  have: ["=CH-","=O (other)"]
+  have: ["=CH-"]
   query: "[OX1H0]=[CH1D2;!R]"
 
 - key: "-COOH (acid)"
