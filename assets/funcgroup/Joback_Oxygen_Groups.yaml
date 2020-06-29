@@ -22,7 +22,7 @@
 
 - key: "O=CH- (aldehyde)"
   have: ["=CH-","=O (other)"]
-  query: "O=[CH1D2;!R]"
+  query: "[OX1H0]=[CH1D2;!R]"
 
 - key: "-COOH (acid)"
   have: ["-OH (alcohol)",">C=O (non-ring)"]
