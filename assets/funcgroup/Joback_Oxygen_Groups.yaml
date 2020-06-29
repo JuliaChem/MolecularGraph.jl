@@ -7,7 +7,7 @@
   query: "[a][OHD1]"
 
 - key: "-O- (non-ring)"
-  query: "[OD2;!R]"
+  query: "[OX2H0;!R]"
 
 - key: "-O- (ring)"
   query: "[OD2;R]"
