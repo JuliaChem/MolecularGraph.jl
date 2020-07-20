@@ -20,7 +20,7 @@ function funcgrouptable()
     ]
 
     filesJoback = [
-        "Joback_Non_ring_Groups.yaml",
+        "Joback_Non_Ring_Groups.yaml",
         "Joback_Ring_Groups.yaml",
         "Joback_Oxygen_Groups.yaml",
         "Joback_Halogen_Groups.yaml",
