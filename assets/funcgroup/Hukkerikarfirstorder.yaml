@@ -39,7 +39,7 @@
 
 # 41
 - key: "CH2COO"
-  query: "[C[CH0](=O)[OD2]"
+  query: "[C[CH0](=O)[OD2]]"
 
 #
 #
