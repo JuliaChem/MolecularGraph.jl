@@ -84,12 +84,17 @@
   query: "[CH0D4;R]"
 
 
+# 174
+- key: "CH2=C(cyc)"
+  query: "[CH2;R]=[C;!R]"
 
-
-# 170
+# 179
 - key: "O(cyc)"
   query: "[@ROD2@]"
 
+# 180
+- key: "CO(cyc)"
+  query: "[CH0;R]=[O;!R]"
 
 # 184
 - key: "-O-"
