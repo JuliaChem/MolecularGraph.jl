@@ -20,7 +20,7 @@
 
 # 102
 - key: ">Ncyc-CH3"
-  query: "[nD3;R]"
+  query: "[nD3;R][CH3;!R]"
 
 - key: "CHcyc-O-"
   query: "[RCH][@OD2@;!R][*R]"
