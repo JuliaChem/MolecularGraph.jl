@@ -97,7 +97,7 @@
 
 # 176
 - key: "CH=N(cyc)"
-  query: "[CH1;R]=[#7;R]"
+  query: "[cH1;R]=[n;R]"
 
 # 179
 - key: "O(cyc)"
