@@ -8,7 +8,7 @@
 
 # 21
 - key: "CHm(OH)CHn(OH) (m,n in 0..2)"
-  any: ["[OD2]"]
+  any: ["(O)[CH1](O)[CH1]"]
 
 - key: "CHcyc-O-"
   query: "[RCH][@OD2@;!R][*R]"
