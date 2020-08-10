@@ -80,7 +80,7 @@
 
 # 161
 - key: "PO4"
-  query: "[cH0;R](O)(=O)(O)[P]"
+  query: "[O-]P(=O)([O-])[O-]"
 
 # 162
 - key: "aC-PO4"
