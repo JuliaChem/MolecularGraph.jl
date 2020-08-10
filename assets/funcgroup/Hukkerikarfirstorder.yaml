@@ -84,7 +84,8 @@
 
 # 162
 - key: "aC-PO4"
-  have: ["aC fused with aromatic ring", "PO4"]
+  isa: ["PO4"]
+  have: ["aC fused with aromatic ring"]
   query: "[P](=O)(O)(O)[OD2;!R][cH0;R]"
 
 # 168
