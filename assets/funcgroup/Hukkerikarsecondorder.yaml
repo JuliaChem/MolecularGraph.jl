@@ -3,7 +3,7 @@
 # Second order
 
 # 10
-- key: "CHCHO"
+- key: "CHCHO or CCHO"
   query: "[CH][CH]=[O]"
 
 - key: "CHcyc-O-"
