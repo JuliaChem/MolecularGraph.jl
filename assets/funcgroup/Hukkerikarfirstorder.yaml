@@ -27,7 +27,7 @@
 
 # 20
 - key: "aC-CH3"
-  have: ["aC fused with aromatic ring"]
+  have: ["aC fused with aromatic ring","CH3"]
   query: "[cH0;R][CH3D1;!R]"
 
 # 29
