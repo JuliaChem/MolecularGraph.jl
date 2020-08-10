@@ -81,6 +81,7 @@
 
 # 162
 - key: "aC-PO4"
+  have: ["[cH0;R]"]
   query: "[P](=O)(O)(O)[OD2;!R][cH0;R]"
 
 # 168
