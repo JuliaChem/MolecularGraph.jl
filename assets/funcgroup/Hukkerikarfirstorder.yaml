@@ -105,7 +105,7 @@
 
 # 180
 - key: "CO(cyc)"
-  query: "[OD1]"
+  query: "[OD1][CH0;R]"
 
 # 184
 - key: "-O-"
