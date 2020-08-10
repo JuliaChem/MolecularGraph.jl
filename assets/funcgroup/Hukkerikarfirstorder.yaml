@@ -85,7 +85,7 @@
 
 # 173
 - key: "C=C(cyc)"
-  query: "C=C"
+  query: "[CH0]=[CH0]"
 
 # 174
 - key: "CH2=C(cyc)"
