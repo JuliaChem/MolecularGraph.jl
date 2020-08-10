@@ -85,15 +85,19 @@
 
 # 173
 - key: "C=C(cyc)"
-  query: "[CH0;R]=[CH0;R]"
+  query: "[CH0D3;R]=[CH0D3;R]"
 
 # 174
 - key: "CH2=C(cyc)"
   query: "[CH2;!R]=[C;R]"
 
-# N(cyc)
+# 175
 - key: "N(cyc)"
   query: "[#7;R]"
+
+# 176
+- key: "CH=N(cyc)"
+  query: "[CH1;R]=[N;R]"
 
 # 179
 - key: "O(cyc)"
