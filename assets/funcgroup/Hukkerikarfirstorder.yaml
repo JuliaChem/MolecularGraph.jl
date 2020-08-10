@@ -23,7 +23,7 @@
 
 # 16
 - key: "aC fused with aromatic ring"
-  query: [cH0;R]
+  query: "[cH0;R]"
 
 # 29
 - key: "OH"
