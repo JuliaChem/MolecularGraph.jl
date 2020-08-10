@@ -25,6 +25,11 @@
 - key: "aC fused with aromatic ring"
   query: "[cH0;R]"
 
+# 20
+- key: "aC-CH3"
+  have: ["aC fused with aromatic ring"]
+  query: "[cH0;R][CH3D1;!R]"
+
 # 29
 - key: "OH"
   query: "[OHD1;!R]"
