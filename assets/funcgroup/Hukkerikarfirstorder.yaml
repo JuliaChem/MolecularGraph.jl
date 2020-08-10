@@ -81,7 +81,7 @@
 
 # 162
 - key: "aC-PO4"
-  query: "[P](=O)(O)(O)[OD2;!R]"
+  query: "[P](=O)(O)(O)[OD2;!R][cH0;R]"
 
 # 168
 - key: "CH2(cyc)"
