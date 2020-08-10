@@ -51,9 +51,6 @@
   have: ["CH2"]
   query: "C[CH0](=O)[OD2]"
 
-# 53
-- key: "aC-O"
-  query: "[aCH0;R][OX2]"
 #
 #
 
@@ -83,7 +80,7 @@
 
 # 161
 - key: "PO4"
-  query: "[P](=O)(O)(O)[OD2;!R]"
+  query: "[cH0;R](O)(=O)(O)[P]"
 
 # 162
 - key: "aC-PO4"
