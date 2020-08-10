@@ -79,6 +79,9 @@
 - key: "-Cl"
   query: "[#17][*!R]"
 
+# 162
+- key: "aC-PO4"
+  query: "[cH0;R][OD2;!R][P]"
 
 # 168
 - key: "CH2(cyc)"
