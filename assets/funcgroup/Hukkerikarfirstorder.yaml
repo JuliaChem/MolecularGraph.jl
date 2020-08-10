@@ -93,7 +93,7 @@
 
 # 175
 - key: "N(cyc)"
-  query: "[#7;R]"
+  query: "[n;R]"
 
 # 176
 - key: "CH=N(cyc)"
