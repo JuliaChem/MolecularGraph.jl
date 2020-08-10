@@ -18,6 +18,10 @@
         "[CH2](O)[CH1][OH]",
         "[CH2](O)[CH2][OH]"]
 
+# 102
+- key: ">Ncyc-CH3"
+  query: "[nD3;R]"
+
 - key: "CHcyc-O-"
   query: "[RCH][@OD2@;!R][*R]"
 
