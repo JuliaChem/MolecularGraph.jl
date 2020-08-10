@@ -24,8 +24,8 @@
 
 # 104
 - key: "AROMRINGs1s2"
-  query: "Cc3c(C)cccc3")"
-  
+  query: "[c]~[c]~[c]~[c]~[c]~[c]"
+
 - key: "CHcyc-O-"
   query: "[RCH][@OD2@;!R][*R]"
 
