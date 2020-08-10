@@ -4,7 +4,7 @@
 
 # 10
 - key: "CHCHO"
-  query: "[CHD3][CHD3]=[OD1]"
+  query: "[CH][CH]=[O]"
 
 - key: "CHcyc-O-"
   query: "[RCH][@OD2@;!R][*R]"
