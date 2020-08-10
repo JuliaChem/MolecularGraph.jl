@@ -19,7 +19,7 @@
 
 # 15
 - key: "aCH"
-  query: "[CD2;!R]"
+  query: "[cH;R]"
 
 # 29
 - key: "OH"
