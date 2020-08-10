@@ -105,7 +105,7 @@
 
 # 180
 - key: "CO(cyc)"
-  query: "[CX3;R]=[#8;!R]"
+  query: "C=O"
 
 # 184
 - key: "-O-"
