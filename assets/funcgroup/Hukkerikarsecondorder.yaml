@@ -22,6 +22,10 @@
 - key: ">Ncyc-CH3"
   query: "[nD3;R][CH3;!R]"
 
+# 104
+- key: "AROMRINGs1s2"
+  query: "Cc3c(C)cccc3")"
+  
 - key: "CHcyc-O-"
   query: "[RCH][@OD2@;!R][*R]"
 
