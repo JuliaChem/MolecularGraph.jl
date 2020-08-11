@@ -6,6 +6,10 @@
 - key: "CHCHO or CCHO"
   query: "[CH][CH]=[O]"
 
+# 16
+- key: "CHOH"
+  query: "[CH][OH]"
+
 # 21
 - key: "CHm(OH)CHn(OH) (m,n in 0..2)"
   any: ["[CH0](O)[CH0][OH]",
