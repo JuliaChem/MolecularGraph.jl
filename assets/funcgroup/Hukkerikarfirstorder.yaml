@@ -55,6 +55,11 @@
 - key: "aC-O"
   query: "[cH0;R][OD2;!R]"
 
+# 62
+- key: "aC-NH2"
+  have: ["aC"]
+  query: "[cH0;R][#7H2]"
+
 # 120
 - key: "CCl2F"
   have: "[A][CH0D4]([#17])([#17])[#9]"
