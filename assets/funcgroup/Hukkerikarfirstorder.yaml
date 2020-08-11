@@ -80,7 +80,7 @@
 
 # 161
 - key: "PO4 (Phospate)"
-  query: "[O][P](=O)([O])[O]"
+  query: "[OD2][#15X4](=OD1)([OD2])[OD2]"
 
 # 162
 - key: "aC-PO4"
@@ -129,8 +129,8 @@
   query: "[*R][@OD2@;!R][*R]"
 
 # 201
-- key: "P=O"
-  query: "[#15]=O"
+#- key: "P=O"
+#  query: "[#15](=O)"
 
 
 # 208
