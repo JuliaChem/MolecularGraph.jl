@@ -57,7 +57,7 @@
 
 # 62
 - key: "aC-NH2"
-  have: ["aC"]
+  #have: ["aC"]
   query: "[cH0;R][#7H2]"
 
 # 120
