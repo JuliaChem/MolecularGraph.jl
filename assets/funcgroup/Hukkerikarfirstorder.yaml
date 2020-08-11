@@ -84,7 +84,7 @@
 
 # 162
 - key: "aC-PO4"
-  #have: ["PO4 (Phospate)"]
+  have: ["PO4 (Phospate)"]
   query: "[O][P](=O)([O])[O][cH0;R]"
 
 # 168
