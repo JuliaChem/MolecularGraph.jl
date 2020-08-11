@@ -36,6 +36,7 @@
 
 # 31
 - key: "COOH"
+  have: ["OH"]
   query: "[OD1]=[CD3][OH]"
 # 33
 - key: "CH3CO"
