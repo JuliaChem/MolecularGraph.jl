@@ -80,13 +80,12 @@
 
 # 161
 - key: "PO4 (Phospate)"
-  have: ["P=O"]
-  query: "[O]P(=O)([O])[O]"
+  query: "[O][P](=O)([O])[O]"
 
 # 162
 - key: "aC-PO4"
   #have: ["PO4 (Phospate)"]
-  query: "[O]P(=O)([O])[O][cH0;R]"
+  query: "[O][P](=O)([O])[O][cH0;R]"
 
 # 168
 - key: "CH2(cyc)"
