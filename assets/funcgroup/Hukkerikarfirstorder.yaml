@@ -53,7 +53,7 @@
 
 # 53
 - key: "aC-O"
-  query: "[cH0;R][OD2;R]"
+  query: "[cH0;R][OD2;!R]"
 
 # 120
 - key: "CCl2F"
