@@ -48,7 +48,7 @@
 # 40
 - key: "CH3COO"
   have: ["CH3", "CH3CO"]
-  query: "[CH3][CH0](=O)[OD2]"
+  query: "[CH3][CH0](=O)[OH0]"
 
 # 41
 - key: "CH2COO"
