@@ -57,6 +57,7 @@
 
 # 44
 - key: "HCOO"
+  have: ["CHO"]
   query: "[CH](=O)[OH0]"
 
 # 53
