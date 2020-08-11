@@ -81,6 +81,7 @@
 
 # 154
 - key: "aC-SO2"
+  have: ["aC fused with aromatic ring"]
   query: "[S](=O)(=O)[cH0;R]"
 
 # 161
