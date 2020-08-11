@@ -51,8 +51,9 @@
   have: ["CH2"]
   query: "C[CH0](=O)[OD2]"
 
-#
-#
+# 53
+- key: "aC-O"
+  query: "[cH0;R][OD2;R]"
 
 # 120
 - key: "CCl2F"
