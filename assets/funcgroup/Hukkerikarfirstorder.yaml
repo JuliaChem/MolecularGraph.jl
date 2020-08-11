@@ -119,7 +119,7 @@
 
 # 176
 - key: "CH=N(cyc)"
-  have: ["N(cyc)",[cH1;R]]
+  have: ["N(cyc)","aCH"]
   query: "[cH1;R]=[n;R]"
 
 # 179
