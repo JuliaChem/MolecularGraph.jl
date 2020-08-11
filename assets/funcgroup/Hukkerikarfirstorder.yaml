@@ -47,7 +47,7 @@
 
 # 40
 - key: "CH3COO"
-  have: ["CH3"]
+  have: ["CH3", "CH3CO"]
   query: "[CH3][CH0](=O)[OD2]"
 
 # 41
@@ -150,9 +150,9 @@
 
 
 # 208
-- key: "-Na"
+- key: "Na"
   query: "[NaD1][*!R]"
 
 # 209
-- key: "-K"
+- key: "K"
   query: "[KD1][*!R]"
