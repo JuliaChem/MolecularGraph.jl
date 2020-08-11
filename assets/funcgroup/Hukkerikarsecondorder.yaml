@@ -18,6 +18,10 @@
         "[CH2](O)[CH1][OH]",
         "[CH2](O)[CH2][OH]"]
 
+# 65
+- key: "aC-SO2-OH"
+  query: "[OH][S](=O)(=O)[cH0;R]"
+
 # 102
 - key: ">Ncyc-CH3"
   query: "[nD3;R][CH3;!R]"
