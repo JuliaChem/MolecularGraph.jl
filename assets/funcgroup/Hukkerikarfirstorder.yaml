@@ -36,7 +36,7 @@
 
 # 31
 - key: "COOH"
-  query: "[OD1]=[CD3][OH]"
+  query: "[OD1]=[CD3][OD2]"
 # 33
 - key: "CH3CO"
   query: "[CH3D1][CD3]=[OD1]"
@@ -45,6 +45,10 @@
 - key: "CHO"
   query: "[CH]=[OD1]"
 
+# 40
+- key: "CH3COO"
+  have: ["CH3"]
+  query: "[CH3][CH0](=O)[OD2]"
 
 # 41
 - key: "CH2COO"
