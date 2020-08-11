@@ -30,7 +30,7 @@
 
 - key: "-COO- (ester)"
   have: [">C=O (non-ring)","-O- (non-ring)"]
-  query: "O=[CH0D3][OD2]"
+  query: "O=[CH0D3][OH0]"
 
 - key: "=O (other)"
   query: "[OX1H0;!$([OX1H0]=[#6X3]);!$([OX1H0]=[#7X3][#8])]"
