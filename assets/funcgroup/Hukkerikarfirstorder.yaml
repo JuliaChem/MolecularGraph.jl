@@ -61,6 +61,10 @@
   have: ["CHO"]
   query: "[CH](=O)[OH0]"
 
+# 48
+- key: "COO"
+  query: "[CH0](=O)[OH0]"
+
 # 53
 - key: "aC-O"
   query: "[cH0;R][OD2;!R]"
