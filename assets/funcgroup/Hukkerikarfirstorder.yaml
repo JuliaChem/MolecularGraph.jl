@@ -80,7 +80,7 @@
 
 # 161
 - key: "PO4 (Phospate)"
-  have: ["P=O"]
+#  have: ["P=O"]
   query: "[O]P(=O)([O])[O]"
 
 # 162
