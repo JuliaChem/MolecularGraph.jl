@@ -36,7 +36,7 @@
 
 # 31
 - key: "COOH"
-  have: ["OH"]
+  have: ["OH","C"]
   query: "[CD3](=O)[OH]"
 # 33
 - key: "CH3CO"
@@ -63,6 +63,7 @@
 
 # 48
 - key: "COO"
+  have: ["C"]
   query: "[CH0](=O)[OH0]"
 
 # 53
