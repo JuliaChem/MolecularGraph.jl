@@ -107,7 +107,7 @@
 
 # 173
 - key: "C=C(cyc)"
-  query: "[C]=[C]"
+  any: ["[C]=[C]","[c]=[c]"]
 
 # 174
 - key: "CH2=C(cyc)"
@@ -119,7 +119,7 @@
 
 # 176
 - key: "CH=N(cyc)"
-  have: ["N(cyc)"]
+  have: ["N(cyc)",[cH1;R]]
   query: "[cH1;R]=[n;R]"
 
 # 179
