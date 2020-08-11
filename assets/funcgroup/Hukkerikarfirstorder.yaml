@@ -65,6 +65,11 @@
 - key: "aC-O"
   query: "[cH0;R][OD2;!R]"
 
+# 55
+- key: "CHNH2"
+  have: ["CH"]
+  query: "[CH][NH2]"
+
 # 62
 - key: "aC-NH2"
   have: ["aC fused with aromatic ring"]
