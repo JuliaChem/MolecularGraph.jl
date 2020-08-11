@@ -37,7 +37,7 @@
 # 31
 - key: "COOH"
   have: ["OH","C"]
-  query: "[A,!#8][CD3](=O)[OH]"
+  query: "[A;!#8][CD3](=O)[OH]"
 # 33
 - key: "CH3CO"
   query: "[CH3D1][CD3]=[OD1]"
