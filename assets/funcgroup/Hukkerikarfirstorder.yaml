@@ -81,7 +81,7 @@
 
 # 154
 - key: "aC-SO2"
-  query: "[cH0;R][S](=O)[OX1]"
+  query: "[S](=O)(=O)[cH0;R]"
 
 # 161
 - key: "PO4 (Phospate)"
