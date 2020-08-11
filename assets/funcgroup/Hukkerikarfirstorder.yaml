@@ -128,6 +128,7 @@
 
 # 180
 - key: "CO(cyc)"
+  have: ["aC fused with aromatic ring"]
   query: "[OD1]=[c;R]"
 
 # 184
