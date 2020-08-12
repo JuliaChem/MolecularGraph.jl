@@ -161,6 +161,9 @@
 - key: "-O-"
   query: "[*R][@OD2@;!R][*R]"
 
+# 185
+- key: "-S-"
+  query: "[SX2]"
 # 201
 #- key: "P=O"
 #  query: "[#15](=O)"
