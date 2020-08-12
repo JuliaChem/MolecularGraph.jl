@@ -76,6 +76,9 @@
   have: ["CH"]
   query: "[CH][NH2]"
 
+# 61
+- key: "CH2N"
+  query: "[CH2][N]"
 # 62
 - key: "aC-NH2"
   have: ["aC fused with aromatic ring"]
