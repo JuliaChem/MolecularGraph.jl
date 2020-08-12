@@ -172,6 +172,9 @@
 #- key: "P=O"
 #  query: "[#15](=O)"
 
+# 204
+- key: ">C=S"
+  query: [CH0D3]=S
 
 # 208
 - key: "Na"
