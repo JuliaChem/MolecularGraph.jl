@@ -78,6 +78,7 @@
 
 # 61
 - key: "CH2N"
+  have: ["CH2"]
   query: "[CH2][N]"
 # 62
 - key: "aC-NH2"
