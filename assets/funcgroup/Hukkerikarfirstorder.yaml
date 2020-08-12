@@ -174,7 +174,7 @@
 
 # 204
 - key: ">C=S"
-  query: [CH0D3]=S
+  query: "[CH0D3]=S"
 
 # 208
 - key: "Na"
