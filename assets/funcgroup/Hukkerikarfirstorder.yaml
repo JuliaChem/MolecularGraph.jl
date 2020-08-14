@@ -179,8 +179,8 @@
 
 # 208
 - key: "Na"
-  query: "[NaD1][*!R]"
+  query: "[NaD1]"
 
 # 209
 - key: "K"
-  query: "[KD1][*!R]"
+  query: "[KD1]"
