@@ -1,11 +1,11 @@
 ---
 # First Order
 # 1
-- key: "Kelvyn Baruc CH3"
+- key: "CH3"
   query: "[CH3D1;!R]"
 
 # 2
-- key: "Kelvyn 2 CH2"
+- key: "CH2"
   query: "[CH2D2;!R]"
 
 # 3
@@ -79,7 +79,7 @@
 # 61
 - key: "CH2N"
   have: ["CH2"]
-  query: "[CH2X2][N]"
+  query: "[CH2][N]"
 # 62
 - key: "aC-NH2"
   have: ["aC fused with aromatic ring"]
