@@ -80,6 +80,7 @@
 - key: "CH2N"
   have: ["CH2"]
   query: "[CH2][N]"
+
 # 62
 - key: "aC-NH2"
   have: ["aC fused with aromatic ring"]
@@ -136,8 +137,8 @@
   query: "[CH0D4;R]"
 
 # 173
-- key: "C=C(cyc)"
-  query: "[C; R]=[C; R]"
+#- key: "C=C(cyc)"
+#  query: "[C; R]=[C; R]"
 
 # 174
 - key: "CH2=C(cyc)"
