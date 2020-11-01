@@ -23,7 +23,7 @@
 
 # 16
 - key: "aC fused with aromatic ring"
-  query: "[cH0;R]"
+  query: "[cH0;R][c]"
 
 # 20
 - key: "aC-CH3"
@@ -137,7 +137,7 @@
 
 # 173
 - key: "C=C(cyc)"
-  any: ["[C]=[C]","[c]=[c]"]
+  query: "[C; R]=[C; R]"
 
 # 174
 - key: "CH2=C(cyc)"
