@@ -41,6 +41,7 @@
 
 # 32
 - key: "aC-COOH"
+  have: ["OH","C"]
   query: "[cH0][CD3](=O)[OH]"
 
 # 33
