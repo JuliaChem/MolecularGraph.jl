@@ -39,6 +39,10 @@
   have: ["OH","C"]
   query: "[A;!#8][CD3](=O)[OH]"
 
+# 32
+- key: "aC-COOH"
+  query: "[cH0][CD3](=O)[OH]"
+
 # 33
 - key: "CH3CO"
   query: "[CH3D1][CD3](=O)[A;!#8]"
@@ -112,7 +116,6 @@
 
 # 154
 - key: "aC-SO2"
-  have: ["aC fused with aromatic ring"]
   query: "[S](=O)(=O)[cH0;R]"
 
 # 161
@@ -159,7 +162,6 @@
 
 # 180
 - key: "CO(cyc)"
-  have: ["aC fused with aromatic ring"]
   query: "[OD1]=[c;R]"
 
 # 184
