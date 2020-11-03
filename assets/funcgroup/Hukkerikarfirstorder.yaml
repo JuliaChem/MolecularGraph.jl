@@ -23,7 +23,7 @@
 
 # 16
 - key: "aC fused with aromatic ring"
-  query: "[cH0;R][a]"
+  query: "[cR2]"
 
 # 20
 - key: "aC-CH3"
