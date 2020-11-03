@@ -60,7 +60,7 @@
 # 41
 - key: "CH2COO"
   have: ["CH2"]
-  query: "C[CH0](=O)[OD2]"
+  query: "[CH2][CH0](=O)[OD2]"
 
 # 44
 - key: "HCOO"
