@@ -4,7 +4,7 @@
 
 # 1
 - key: "(CH3)2CH"
-  query: "[CH1;!R](CH3)[CH3;!R]"
+  query: "[CH1;!R](C)[CH3;!R]"
 
 # 10
 - key: "CHCHO or CCHO"
