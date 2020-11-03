@@ -3,6 +3,10 @@
 # Second order
 
 # 10
+- key: "(CH3)2CH"
+  query: "[CH3;!R](CH3)[CH1;!R]"
+
+# 10
 - key: "CHCHO or CCHO"
   query: "[CH][CH]=[O]"
 
