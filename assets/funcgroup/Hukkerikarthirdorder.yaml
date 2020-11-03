@@ -2,7 +2,7 @@
 
 # 51
 - key: "AROM.FUSED[2]"
-  query: "[c;R1]1[c;R1][c;R1][c;R1][c;R2][c;R2]1"
+  query: "[cH1;R1]1[cH1;R1][cH1;R1][cH1;R1][c;R2][c;R2]1"
 
 # 53
 - key: "AROM.FUSED[2]s2"
@@ -10,4 +10,4 @@
 
 # 64
 - key: "AROM.FUSED[4p]"
-  query: "[c;R1]1[c;R1][c;R2][c;R2][c;R2][c;R2]1"
+  query: "[cH1;R1]1[cH1;R1][c;R2][c;R2][c;R2][c;R2]1"
