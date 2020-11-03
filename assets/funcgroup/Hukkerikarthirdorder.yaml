@@ -2,7 +2,7 @@
 
 # 51
 - key: "AROM.FUSED[2]"
-  query: "c1ccc[cR2][cR2]1"
+  query: "c1ccc[c;x2][c;x2]1"
 
 # 53
 - key: "AROM.FUSED[2]s2"
