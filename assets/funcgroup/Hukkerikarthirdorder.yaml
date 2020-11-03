@@ -2,8 +2,7 @@
 
 # 51
 - key: "AROM.FUSED[2]"
-  have: ["aCH"]
-  query: "[c]1[c][c][cR2][cR2][c]1"
+  query: "[cr6]1[cr6][cr6][cr6R2][cr6R2][cr6]1"
 
 # 53
 - key: "AROM.FUSED[2]s2"
