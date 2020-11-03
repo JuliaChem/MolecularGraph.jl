@@ -7,3 +7,7 @@
 # 53
 - key: "AROM.FUSED[2]s2"
   query: "c1c[cH0](A)[c][cR2][cR2]1"
+
+# 64
+- key: "AROM.FUSED[4p]"
+  query: "[c;R1]1[c;R1][c;R2][c;R2][c;R2][c;R2]1"
