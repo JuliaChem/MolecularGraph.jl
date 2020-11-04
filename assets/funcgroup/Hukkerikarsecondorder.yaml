@@ -108,6 +108,10 @@
 - key: "aC-SO2-OH"
   query: "[OH][S](=O)(=O)[cH0;R]"
 
+# 67
+- key: "aC-C(CH3)3"
+  query: "[cH0;R][CH0;!R]([CH3;!R])([CH3;!R])[CH3;!R]"
+  
 # 102
 - key: ">Ncyc-CH3"
   query: "[nD3;R][CH3;!R]"
