@@ -182,11 +182,11 @@
 - key: "CH2=C(cyc)"
   query: "[CH2;!R]=[C;R]"
 
-# 175
-- key: "N(cyc)"
-  query: "[n;R]"
-
 # 176
+- key: "N(cyc)"
+  query: "[N;R]"
+
+# 177
 - key: "CH=N(cyc)"
   have: ["N(cyc)","aCH"]
   query: "[cH1;R]=[n;R]"
