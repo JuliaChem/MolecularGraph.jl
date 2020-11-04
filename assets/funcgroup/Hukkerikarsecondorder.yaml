@@ -125,7 +125,7 @@
   query: "[*A][c]1[cH1][cH1][c]([*A])[cH1][cH1]1"
 
 # 109
-- key: "AROMRINGs1s4"
+- key: "AROMRINGs1s3s5"
   query: "[*A][c]1[cH1][c]([*A])[cH1][c]([*A])[cH1]1"
 
 - key: "CHcyc-O-"
