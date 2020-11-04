@@ -49,6 +49,11 @@
   have: ["C"]
   query: "[cH0;R][CH0;!R]"
 
+# 26
+- key: "aC-C=CH2"
+  have: ["aC-C", "CH2=C"]
+  query: "[cH0;R][CH0;!R]=[CH2;!R]"
+
 # 29
 - key: "OH"
   query: "[OHD1;!R]"
