@@ -8,15 +8,15 @@
 
 # 7
 - key: "CH3-CHm=CHn (m,n in 0..2)"
-  any: ["[CH0](O)[CH0][OH]",
-        "[CH0](O)[CH1][OH]",
-        "[CH0](O)[CH2][OH]",
-        "[CH1](O)[CH0][OH]",
-        "[CH1](O)[CH1][OH]",
-        "[CH1](O)[CH2][OH]",
-        "[CH2](O)[CH0][OH]",
-        "[CH2](O)[CH1][OH]",
-        "[CH2](O)[CH2][OH]"]
+  any: ["[CH3][CH0]=[CH0]",
+        "[CH3][CH0]=[CH1]",
+        "[CH3][CH0]=[CH2]",
+        "[CH3][CH1]=[CH0]",
+        "[CH3][CH1]=[CH1]",
+        "[CH3][CH1]=[CH2]",
+        "[CH3][CH2]=[CH0]",
+        "[CH3][CH2]=[CH1]",
+        "[CH3][CH2]=[CH2]"]
 
 # 10
 - key: "CHCHO or CCHO"
