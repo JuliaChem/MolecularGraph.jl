@@ -216,6 +216,10 @@
   have: "C"
   query: "[CH0D3]=S"
 
+# 207
+- key: "aN-"
+  query: "[nR1]"
+
 # 208
 - key: "Na"
   query: "[NaD1]"
