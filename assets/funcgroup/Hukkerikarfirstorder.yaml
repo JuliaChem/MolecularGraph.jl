@@ -146,6 +146,7 @@
 
 # 137
 - key: "-O-OH"
+  have: ["OH"]
   query: "[OD2;!R][OH]"
 
 # 154
