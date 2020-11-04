@@ -104,6 +104,12 @@
         "[CH3]=[CH3][C](=O)[O][CH1]",
         "[CH3]=[CH3][C](=O)[O][CH2]",
         "[CH3]=[CH3][C](=O)[O][CH3]"]
+
+# 52
+- key: "aC-CHn-O- (n in 1..2)"
+  any: ["[cH0;R][cH1;!R][OD2]",
+        "[cH0;R][cH2;!R][OD2]"]
+
 # 65
 - key: "aC-SO2-OH"
   query: "[OH][S](=O)(=O)[cH0;R]"
@@ -111,7 +117,7 @@
 # 67
 - key: "aC-C(CH3)3"
   query: "[cH0;R][CH0;!R]([CH3;!R])([CH3;!R])[CH3;!R]"
-  
+
 # 102
 - key: ">Ncyc-CH3"
   query: "[nD3;R][CH3;!R]"
