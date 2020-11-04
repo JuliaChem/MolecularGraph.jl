@@ -114,15 +114,15 @@
 
 # 104
 - key: "AROMRINGs1s2"
-  query: "[*A][c]~[c]([*A])~[c]~[c]~[c]~[c]"
+  query: "[*A][c]1[c]([*A])[cH1][cH1][cH!][cH1]1"
 
 # 105
 - key: "AROMRINGs1s3"
-  query: "[*A][c]1[c][c]([*A])[c][c][c]1"
+  query: "[*A][c]1[cH1][c]([*A])[cH1][cH1][cH1]1"
 
 # 106
 - key: "AROMRINGs1s4"
-  query: "[*A][c]~[c]~[c]~[c]([*A])~[c]~[c]"
+  query: "[*A][c]1[cH1][cH1][c]([*A])[cH1][cH1]1"
 
 - key: "CHcyc-O-"
   query: "[RCH][@OD2@;!R][*R]"
