@@ -34,6 +34,21 @@
   have: ["CH3"]
   query: "[cH0;R][CH3D1;!R]"
 
+# 21
+- key: "aC-CH2"
+  have: ["CH2"]
+  query: "[cH0;R][CH2D2;!R]"
+
+# 22
+- key: "aC-CH"
+  have: ["CH"]
+  query: "[cH0;R][CH1;!R]"
+
+# 22
+- key: "aC-C"
+  have: ["C"]
+  query: "[cH0;R][CH0;!R]"
+
 # 29
 - key: "OH"
   query: "[OHD1;!R]"
