@@ -115,6 +115,11 @@
   have: ["aC fused with aromatic ring"]
   query: "[cH0;R][#7H2]"
 
+# 76
+- key: "aC-NCO"
+  have: ["C"]
+  query: "[cH0;R][N]=[C]=[O]"
+
 # 120
 - key: "CCl2F"
   have: "[A][CH0D4]([#17])([#17])[#9]"
