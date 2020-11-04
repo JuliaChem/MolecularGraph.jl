@@ -144,6 +144,10 @@
 - key: "-Cl"
   query: "[#17][*!R]"
 
+# 137
+- key: "-O-OH"
+  query: "[OD2;!R][OH]"
+
 # 154
 - key: "aC-SO2"
   query: "[S](=O)(=O)[cH0;R]"
