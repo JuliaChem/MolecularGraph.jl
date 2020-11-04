@@ -107,7 +107,7 @@
 
 # 52
 - key: "aC-CHn-O- (n in 1..2)"
-  any: ["[cH0;R][CH0;!R][OD2]",
+  any: ["[cH0;R][CH1;!R][OD2]",
         "[cH0;R][CH2;!R][OD2]"]
 
 # 65
