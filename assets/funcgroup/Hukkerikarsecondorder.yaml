@@ -120,7 +120,7 @@
 # 105
 - key: "AROMRINGs1s3"
   have: ["C=C(cyc)"]
-  query: "[*A][c]~[c]~[c]([*A])~[c]~[c]~[c]"
+  query: "[*A][c]1[c][c]([*A])[c][c][c]1"
 
 # 106
 - key: "AROMRINGs1s4"
