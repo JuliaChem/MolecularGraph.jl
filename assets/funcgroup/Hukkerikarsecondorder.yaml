@@ -124,6 +124,10 @@
 - key: "AROMRINGs1s4"
   query: "[*A][c]1[cH1][cH1][c]([*A])[cH1][cH1]1"
 
+# 109
+- key: "AROMRINGs1s4"
+  query: "[*A][c]1[cH1][c]([*A])[cH1][c]([*A])[cH1]1"
+
 - key: "CHcyc-O-"
   query: "[RCH][@OD2@;!R][*R]"
 
