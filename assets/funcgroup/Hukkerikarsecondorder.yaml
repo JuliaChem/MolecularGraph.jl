@@ -114,7 +114,7 @@
 
 # 104
 - key: "AROMRINGs1s2"
-  query: "[*A][c]1[c]([*A])[cH1][cH1][cH!][cH1]1"
+  query: "[*A][c]1[c]([*A])[cH1][cH1][cH1][cH1]1"
 
 # 105
 - key: "AROMRINGs1s3"
