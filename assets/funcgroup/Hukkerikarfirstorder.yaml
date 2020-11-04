@@ -23,7 +23,7 @@
 
 # 15
 - key: "aCH"
-  query: "[cH1;R]"
+  query: "[cH1]"
 
 # 16
 - key: "aC fused with aromatic ring"
