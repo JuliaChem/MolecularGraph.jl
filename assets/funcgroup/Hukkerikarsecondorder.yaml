@@ -4,7 +4,19 @@
 
 # 1
 - key: "(CH3)2CH"
-  query: "[CH1;!R](C)[CH3;!R]"
+  query: "[CH3;!R][CH1;!R][CH3;!R]"
+
+# 7
+- key: "CH3-CHm=CHn (m,n in 0..2)"
+  any: ["[CH0](O)[CH0][OH]",
+        "[CH0](O)[CH1][OH]",
+        "[CH0](O)[CH2][OH]",
+        "[CH1](O)[CH0][OH]",
+        "[CH1](O)[CH1][OH]",
+        "[CH1](O)[CH2][OH]",
+        "[CH2](O)[CH0][OH]",
+        "[CH2](O)[CH1][OH]",
+        "[CH2](O)[CH2][OH]"]
 
 # 10
 - key: "CHCHO or CCHO"
