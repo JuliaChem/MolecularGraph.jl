@@ -107,8 +107,8 @@
 
 # 52
 - key: "aC-CHn-O- (n in 1..2)"
-  any: ["[cH0;R][cH1;!R][OD2]",
-        "[cH0;R][cH2;!R][OD2]"]
+  any: ["[cH0;R][CH1;!R][OD2]",
+        "[cH0;R][CH2;!R][OD2]"]
 
 # 65
 - key: "aC-SO2-OH"
