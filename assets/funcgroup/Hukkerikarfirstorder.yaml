@@ -18,7 +18,6 @@
 
 # 6
 - key: "CH=CH"
-  have: ["CH"]
   query: "[CH;!R]=[CH;!R]"
 
 # 7
