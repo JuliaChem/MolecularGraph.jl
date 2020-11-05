@@ -187,7 +187,7 @@
 
 # 170
 - key: "C(cyc)"
-  query: "[CH0D4;R]"
+  query: "[CH0;R]"
 
 # 171
 - key: "CH=CH(cyc)"
