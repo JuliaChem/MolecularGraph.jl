@@ -174,7 +174,7 @@
 
 # 166
 - key: "C2H2O"
-  query: "[CH0]1[CH2][O]1"
+  query: "[CH0;R]1[CH2;R][O;R]1"
 
 # 168
 - key: "CH2(cyc)"
