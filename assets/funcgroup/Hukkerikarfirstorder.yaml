@@ -28,7 +28,7 @@
 
 # 8
 - key: "CH=C"
-  have: ["C", "CH2"]
+  have: ["C", "CH"]
   query: "[CH1;!R]=[CH0;!R]"
 
 # 15
