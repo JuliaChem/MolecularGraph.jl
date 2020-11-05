@@ -176,6 +176,7 @@
 
 # 171
 - key: "CH=CH(cyc)"
+  have: ["aCH"]
   query: "[cH1;R]=[cH1;R]"
 
 # 173
