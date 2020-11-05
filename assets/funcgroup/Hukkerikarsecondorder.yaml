@@ -8,27 +8,27 @@
 
 # 7
 - key: "CH3-CHm=CHn (m,n in 0..2)"
-  any: ["[CH3][CH0]=[CH0]",
-        "[CH3][CH0]=[CH1]",
-        "[CH3][CH0]=[CH2]",
-        "[CH3][CH1]=[CH0]",
-        "[CH3][CH1]=[CH1]",
-        "[CH3][CH1]=[CH2]",
-        "[CH3][CH2]=[CH0]",
-        "[CH3][CH2]=[CH1]",
-        "[CH3][CH2]=[CH2]"]
+  any: ["[CH3;!R][CH0;!R]=[CH0;!R]",
+        "[CH3;!R][CH0;!R]=[CH1;!R]",
+        "[CH3;!R][CH0;!R]=[CH2;!R]",
+        "[CH3;!R][CH1;!R]=[CH0;!R]",
+        "[CH3;!R][CH1;!R]=[CH1;!R]",
+        "[CH3;!R][CH1;!R]=[CH2;!R]",
+        "[CH3;!R][CH2;!R]=[CH0;!R]",
+        "[CH3;!R][CH2;!R]=[CH1;!R]",
+        "[CH3;!R][CH2;!R]=[CH2;!R]"]
 
 # 8
 - key: "CH2-CHm=CHn (m,n in 0..2)"
-  any: ["[CH2][CH0]=[CH0]",
-        "[CH2][CH0]=[CH1]",
-        "[CH2][CH0]=[CH2]",
-        "[CH2][CH1]=[CH0]",
-        "[CH2][CH1]=[CH1]",
-        "[CH2][CH1]=[CH2]",
-        "[CH2][CH2]=[CH0]",
-        "[CH2][CH2]=[CH1]",
-        "[CH2][CH2]=[CH2]"]
+  any: ["[CH2;!R][CH0;!R]=[CH0;!R]",
+        "[CH2;!R][CH0;!R]=[CH1;!R]",
+        "[CH2;!R][CH0;!R]=[CH2;!R]",
+        "[CH2;!R][CH1;!R]=[CH0;!R]",
+        "[CH2;!R][CH1;!R]=[CH1;!R]",
+        "[CH2;!R][CH1;!R]=[CH2;!R]",
+        "[CH2;!R][CH2;!R]=[CH0;!R]",
+        "[CH2;!R][CH2;!R]=[CH1;!R]",
+        "[CH2;!R][CH2;!R]=[CH2;!R]"]
 
 # 10
 - key: "CHCHO or CCHO"
