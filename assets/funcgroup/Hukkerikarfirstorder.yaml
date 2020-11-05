@@ -174,7 +174,7 @@
 
 # 166
 - key: "C2H2O"
-  have: "C"
+  have: "[C]"
   query: "[CH0;R]1[CH2;R][O;R]1"
 
 # 168
