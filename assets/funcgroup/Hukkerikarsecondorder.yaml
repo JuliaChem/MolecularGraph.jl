@@ -160,13 +160,13 @@
   query: "[RCH][OH;!R]"
 
 # 99
-- key: "Ccyc-CH3"
-  query: "[CH0;R][CH3;!R]"
-
-# 100
-- key: "Ccyc-CH2"
-  query: "[CH0;R][CH2;!R]"
-
-# 101
-- key: "Ccyc-OH"
-  query: "[CH0;R][OH;!R]"
+# - key: "Ccyc-CH3"
+#   query: "[CH0;R][CH3;!R]"
+#
+# # 100
+# - key: "Ccyc-CH2"
+#   query: "[CH0;R][CH2;!R]"
+#
+# # 101
+# - key: "Ccyc-OH"
+#   query: "[CH0;R][OH;!R]"
