@@ -16,6 +16,11 @@
 - key: "C"
   query: "[CH0;!R]"
 
+# 6
+- key: "CH=CH"
+  have: ["CH"]
+  query: "[CH;!R]=[CH;!R]"
+
 # 7
 - key: "CH2=C"
   have: ["C"]
