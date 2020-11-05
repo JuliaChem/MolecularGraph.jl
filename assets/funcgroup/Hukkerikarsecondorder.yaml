@@ -161,6 +161,7 @@
 
 # 99
 - key: "Ccyc-CH3"
+  have: ["C(cyc)"]
   query: "[CH0;R][CH3;!R]"
 
 # 100
