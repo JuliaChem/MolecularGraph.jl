@@ -174,7 +174,7 @@
 
 # 166
 - key: "C2H2O"
-  have: ["CH2(cyc)","C(cyc)","O(cyc)"]
+  have: ["O(cyc)"]
   query: "[CH0]1[CH2][O]1"
 
 # 168
