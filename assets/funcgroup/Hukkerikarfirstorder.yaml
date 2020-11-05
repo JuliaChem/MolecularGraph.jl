@@ -176,7 +176,7 @@
 
 # 171
 - key: "CH=CH(cyc)"
-  query: "[CH1]=[CH1]"
+  query: "[cH1;R]=[cH1;R]"
 
 # 173
 #- key: "C=C(cyc)"
