@@ -198,7 +198,7 @@
 
 # 179
 - key: "O(cyc)"
-  query: "[@ROD2@]"
+  query: "[O:R]"
 
 # 180
 - key: "CO(cyc)"
