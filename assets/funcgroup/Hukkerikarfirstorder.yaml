@@ -175,7 +175,7 @@
 # 166
 - key: "C2H2O"
   have: ["CH2(cyc)"]
-  query: "[CH2;R][OD2;R]"
+  query: "[CH2][OD2]"
 
 # 168
 - key: "CH2(cyc)"
