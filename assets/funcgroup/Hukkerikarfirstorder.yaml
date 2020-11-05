@@ -29,7 +29,7 @@
 # 8
 - key: "CH=C"
   have: ["C", "CH2"]
-  query: "[CH1;!R]=[CH0;R]"
+  query: "[CH1;!R]=[CH0;!R]"
 
 # 15
 - key: "aCH"
