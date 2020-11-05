@@ -191,7 +191,7 @@
 
 # 171a
 - key: "CH=CH(cyc)"
-  have: ["CH"]
+  have: ["CH(cyc)"]
   query: "[CH1;R]=[CH1;R]"
 
 # 173
