@@ -221,7 +221,7 @@
 
 # 179
 - key: "O(cyc)"
-  query: ["O;!R"]
+  query: "[O;!R]"
 
 # 180
 - key: "CO(cyc)"
