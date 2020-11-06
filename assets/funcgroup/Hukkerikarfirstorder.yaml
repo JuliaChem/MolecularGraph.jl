@@ -174,7 +174,6 @@
 
 # 166
 - key: "C2H2O"
-  have: ["O(cyc)"]
   query: "[CH0;R][CH2;R][O]"
 
 # 168
@@ -222,7 +221,7 @@
 
 # 179
 - key: "O(cyc)"
-  any: ["[@O@]", "[@o@]"]
+  query: ["O;!R"]
 
 # 180
 - key: "CO(cyc)"
