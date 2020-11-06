@@ -217,8 +217,12 @@
   query: "[cH1;R]=[n;R]"
 
 # 179
+#- key: "O(cyc)"
+#  query: "[OD2;R]"
+
+# 179
 - key: "O(cyc)"
-  query: "[OD2;R]"
+  query: "[@O@]"
 
 # 180
 - key: "CO(cyc)"
