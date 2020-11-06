@@ -217,7 +217,7 @@
 
 # 179
 - key: "O(cyc)"
-  any: ["[oD2]","[OD2;R]"]
+  any: "[OD2;R]"
 
 # 180
 - key: "CO(cyc)"
