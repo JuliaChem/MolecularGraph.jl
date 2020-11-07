@@ -91,20 +91,20 @@
   have: ["CH3", "CH3CO"]
   query: "[CH3][CH0](=O)[OH0]"
 
+# 48
+- key: "COO"
+  have: ["C"]
+  query: "[CH0](=O)[OH0]"
+
 # 41
 - key: "CH2COO"
-  have: ["CH2"]
+  have: ["CH2","COO"]
   query: "[CH2][CH0](=O)[OD2]"
 
 # 44
 - key: "HCOO"
   have: ["CHO"]
   query: "[CH](=O)[OH0]"
-
-# 48
-- key: "COO"
-  have: ["C"]
-  query: "[CH0](=O)[OH0]"
 
 # 53
 - key: "aC-O"
