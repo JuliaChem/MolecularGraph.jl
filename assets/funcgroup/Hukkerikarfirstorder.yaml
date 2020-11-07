@@ -243,6 +243,10 @@
 - key: "-S-"
   query: "[SX2]"
 
+# 193
+- key: "Si"
+  query: "[#14]"
+
 # 201
 #- key: "P=O"
 #  query: "[#15](=O)"
