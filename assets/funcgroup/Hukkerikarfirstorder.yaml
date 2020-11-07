@@ -174,11 +174,11 @@
 
 # 166
 - key: "C2H2O"
-  query: "[CH2][O]"
+  query: "[CH2D2;R][O]"
 
 # 168
 - key: "CH2(cyc)"
-  query: "[CH2;R]"
+  query: "[CH2D2;R]"
 
 # 169
 - key: "CH(cyc)"
