@@ -134,6 +134,15 @@
 - key: "CCl2F"
   have: "[A][CH0D4]([#17])([#17])[#9]"
 
+# 130
+- key: "-Cl"
+  query: "[#17]"
+  
+# 108
+- key: "CH2Cl"
+  have: ["-Cl"]
+  query: "[CH2;!R][#17]"
+
 # 109
 - key: "CHCl"
   query: "[CH1D3][#17]"
@@ -149,10 +158,6 @@
 # 129
 - key: "-F"
   query: "[FD1][*!R]"
-
-# 130
-- key: "-Cl"
-  query: "[#17][*!R]"
 
 # 137
 - key: "-O-OH"
