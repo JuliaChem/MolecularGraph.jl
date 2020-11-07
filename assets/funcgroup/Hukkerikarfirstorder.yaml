@@ -6,7 +6,7 @@
 
 # 2
 - key: "CH2"
-  query: "[CH2D2]" # test
+  query: "[CH2D2;!R]" # test
 
 # 3
 - key: "CH"
@@ -179,7 +179,7 @@
 
 # 168
 - key: "CH2(cyc)"
-  query: "[CH2;R]"
+  query: [CH2D2;R]" 
 
 # 169
 - key: "CH(cyc)"
