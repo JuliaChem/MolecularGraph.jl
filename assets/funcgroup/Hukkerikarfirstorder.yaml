@@ -178,7 +178,7 @@
 
 # 168
 - key: "CH2(cyc)"
-  query: "[CH2D2;R]"
+  query: "[CH2D2R1]"
 
 # 169
 - key: "CH(cyc)"
