@@ -172,14 +172,14 @@
   have: ["PO4 (Phospate)","aC-O"]
   query: "[O][P](=O)([O])[O][cH0;R]"
 
+# 168
+- key: "CH2(cyc)"
+  query: "[CH2D2R1]"
+
 # 166
 - key: "C2H2O"
   have: ["CH2(cyc)"]
   query: "[CH2D2R1][OR1]"
-
-# 168
-- key: "CH2(cyc)"
-  query: "[CH2D2R1]"
 
 # 169
 - key: "CH(cyc)"
