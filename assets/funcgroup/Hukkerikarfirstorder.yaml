@@ -175,11 +175,11 @@
 # 166
 - key: "C2H2O"
   have: ["CH2(cyc)"]
-  query: "[CH2][O]"
+  query: "[@CH2@][O]"
 
 # 168
 - key: "CH2(cyc)"
-  query: "[CH2D2;R]"
+  query: "@[CH2D2]@"
 
 # 169
 - key: "CH(cyc)"
