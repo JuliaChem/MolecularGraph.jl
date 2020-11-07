@@ -225,12 +225,6 @@
   have: ["N(cyc)","aCH"]
   query: "[cH1;R]=[n;R]"
 
-# 179
-#- key: "O(cyc)"
-#  query: "[OD2;R]"
-
-
-
 # 180
 - key: "CO(cyc)"
   query: "[OD1]=[c;R]"
@@ -242,6 +236,10 @@
 # 185
 - key: "-S-"
   query: "[SX2]"
+
+# 190
+- key: "SiO"
+  query: "[#14][OD2]"
 
 # 193
 - key: "Si"
