@@ -174,7 +174,7 @@
 
 # 166
 - key: "C2H2O"
-  have: ["CH2"]
+  #have: ["CH2"]
   query: "[CH2][O]"
 
 # 168
