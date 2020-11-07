@@ -183,10 +183,10 @@
 # 170
 - key: "C(cyc)"
   query: "[CH0;R]"
-    
+
 # 166
 - key: "C2H2O"
-  have: ["CH2(cyc)",  "C(cyc)"]
+  have: ["CH2(cyc)",  "C(cyc)", "O(cyc)"]
   query: "[CH0; R][CH2; R][O; R]"
 
 # 169
