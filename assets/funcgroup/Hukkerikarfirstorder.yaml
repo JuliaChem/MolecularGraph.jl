@@ -140,7 +140,7 @@
 
 # 108
 - key: "CH2Cl"
-  have: ["-Cl"."CH2"]
+  have: ["-Cl","CH2"]
   query: "[CH2;!R][#17]"
 
 # 109
