@@ -6,7 +6,7 @@
 
 # 2
 - key: "CH2"
-  query: "[CH2D2;!R]"
+  query: "[CH2D2]" # test
 
 # 3
 - key: "CH"
@@ -174,7 +174,8 @@
 
 # 166
 - key: "C2H2O"
-  query: "[CH2]O"
+  have:  ["CH2"]
+  query: "[CH2][O]"
 
 # 168
 - key: "CH2(cyc)"
@@ -221,7 +222,7 @@
 
 # 179
 - key: "O(cyc)"
-  query: "O"
+  query: "[O;R]"
 
 # 180
 - key: "CO(cyc)"
