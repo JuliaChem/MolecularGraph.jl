@@ -174,7 +174,7 @@
 
 # 168
 - key: "CH2(cyc)"
-  query: "[CH2D2R1]"
+  query: "[CH2;R]"
 
 # 179
 - key: "O(cyc)"
@@ -187,7 +187,7 @@
 # 166
 - key: "C2H2O"
   have: ["CH2(cyc)",  "C(cyc)", "O(cyc)"]
-  query: "[CH0; R][CH2; R][O; R]"
+  query: "[CH0;R][CH2;R][O;R]"
 
 # 169
 - key: "CH(cyc)"
