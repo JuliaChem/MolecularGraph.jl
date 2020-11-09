@@ -45,7 +45,7 @@
   query: "[cR2]"
 
 # 19
-- key: "aN"
+- key: "aN in aromatic ring"
   query: "[nR1]"
 
 # 20
