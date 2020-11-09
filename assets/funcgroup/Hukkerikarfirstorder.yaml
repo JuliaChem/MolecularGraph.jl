@@ -130,6 +130,14 @@
   have: ["C"]
   query: "[cH0;R][N]=[C]=[O]"
 
+# 199
+- key: "N=O"
+  query: "[N;!R]=[O;!R]"
+
+# 81
+- key: "NO2"
+  query: "[N;!R](=[O;!R])=[O;!R]"
+
 # 120
 - key: "CCl2F"
   have: "[A][CH0D4]([#17])([#17])[#9]"
@@ -268,10 +276,6 @@
 - key: "SiO"
   have: ["-O-", "Si"]
   query: "[#14][OD2]"
-
-# 199
-- key: "N=O"
-  query: "[N;!R]=[O;!R]"
 
 # 201
 #- key: "P=O"
