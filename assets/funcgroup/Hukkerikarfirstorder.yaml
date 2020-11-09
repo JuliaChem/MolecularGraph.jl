@@ -166,7 +166,7 @@
 
 # 143
 - key: "CH3S"
-  query: "[CH3;!R][S;!R]"
+  query: "[CH3;!R][#16;!R]"
 
 # 154
 - key: "aC-SO2"
