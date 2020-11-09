@@ -85,7 +85,9 @@
 
 # 33
 - key: "CH3CO"
+  have: ["C"]
   query: "[CH3D1][CD3](=O)[A;!#8]"
+
 
 # 38
 - key: "CHO"
