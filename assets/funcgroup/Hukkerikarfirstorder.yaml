@@ -199,8 +199,8 @@
   query: "[CH;R]"
 
 # 171
-- key: "CH=CH(cyc)"
-  query: "[cH1;R]=[cH1;R]"
+#- key: "CH=CH(cyc)"
+#  query: "[cH1;R]=[cH1;R]"
 
 # 171a
 - key: "CH=CH(cyc)"
