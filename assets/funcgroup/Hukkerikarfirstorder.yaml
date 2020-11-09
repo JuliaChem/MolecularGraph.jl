@@ -173,6 +173,21 @@
   have: ["-S-", "CH3"]
   query: "[CH3;!R][#16;!R]"
 
+# 144
+- key: "CH2S"
+  have: ["-S-", "CH2"]
+  query: "[CH2;!R][#16;!R]"
+
+# 145
+- key: "CS"
+  have: ["-S-", "C"]
+  query: "[CH0;!R][#16;!R]"
+
+# 146
+- key: "CHS"
+  have: ["-S-", "CH"]
+  query: "[CH1;!R][#16;!R]"
+
 # 154
 - key: "aC-SO2"
   query: "[S](=O)(=O)[cH0;R]"
