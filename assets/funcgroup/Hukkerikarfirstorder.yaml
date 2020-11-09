@@ -89,6 +89,7 @@
 
 # 38
 - key: "CHO"
+  have: ["CH"]
   query: "[CH]=[OD1]"
 
 # 40
