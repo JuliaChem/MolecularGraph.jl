@@ -252,6 +252,10 @@
 - key: "CO(cyc)"
   query: "[OD1]=[c;R]"
 
+# 183
+- key: ">NH"
+  query: "[ND2H;!R]"
+
 # 184
 - key: "-O-"
   query: "[OD2;!R]"
