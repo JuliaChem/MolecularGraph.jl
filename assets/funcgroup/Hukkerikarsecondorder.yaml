@@ -6,6 +6,10 @@
 - key: "(CH3)2CH"
   query: "[CH3;!R][CH1;!R][CH3;!R]"
 
+# 2
+- key: "(CH3)3C"
+  query: "[CH3;!R][CH0;!R]([CH3;!R])[CH3;!R]"
+
 # 7
 - key: "CH3-CHm=CHn (m,n in 0..2)"
   any: ["[CH3;!R][CH0;!R]=[CH0;!R]",
