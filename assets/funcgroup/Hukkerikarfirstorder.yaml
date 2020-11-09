@@ -269,6 +269,10 @@
   have: ["-O-", "Si"]
   query: "[#14][OD2]"
 
+# 199
+- key: "N=O"
+  query: "[N;!R]=[O;!R]"
+
 # 201
 #- key: "P=O"
 #  query: "[#15](=O)"
