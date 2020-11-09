@@ -127,8 +127,12 @@
   query: "[OH][S](=O)(=O)[cH0;R]"
 
 # 67
-- key: "aC-C(CH3)3"
+- key: "aC-CF3"
   query: "[cH0;R][CH0;!R]([CH3;!R])([CH3;!R])[CH3;!R]"
+
+# 68
+- key: "aC-C(CH3)3"
+  query: "[cH0;R][CH0;!R]([F;!R])([F;!R])[F;!R]"
 
 # 84
 - key: "CHm=CHn-Cl (m,n in 0..2)"
