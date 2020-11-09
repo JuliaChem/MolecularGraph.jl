@@ -138,6 +138,11 @@
 - key: "aC-CF3"
   query: "[cH0;R][CH0;!R]([F;!R])([F;!R])[F;!R]"
 
+# 80
+- key: "CHcyc-CH=CHn (n in 1..2)"
+  any: ["[CH1;R][CH1]=[CH1]",
+        "[CH1;R][CH1]=[CH2]"]
+
 # 84
 - key: "CHm=CHn-Cl (m,n in 0..2)"
   any: ["[CH0]=[CH0][#17]",
