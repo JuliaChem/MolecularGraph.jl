@@ -44,6 +44,10 @@
 - key: "aC fused with aromatic ring"
   query: "[cR2]"
 
+# 19
+- key: "aN"
+  query: "[nR1]"
+
 # 20
 - key: "aC-CH3"
   have: ["CH3"]
@@ -300,9 +304,10 @@
   have: "C"
   query: "[CH0D3]=S"
 
+# TODO 207
 # 207
-- key: "aN-"
-  query: "[nR1]"
+# - key: "aN-"
+#  query: "[nR1]"
 
 # 208
 - key: "Na"
