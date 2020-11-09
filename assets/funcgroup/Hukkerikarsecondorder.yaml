@@ -196,7 +196,11 @@
 # 100
 - key: "Ccyc-CH2"
   query: "[CH0;R][CH2;!R]"
-#
+
+# 113
+- key: "PYRIDINEs2"
+  query: "nc([*A])cccc"
+
 # # 101
 # - key: "Ccyc-OH"
 #   query: "[CH0;R][OH;!R]"
