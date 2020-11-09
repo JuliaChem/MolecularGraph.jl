@@ -164,8 +164,13 @@
   have: ["OH"]
   query: "[OD2;!R][OH]"
 
+# 185
+- key: "-S-"
+  query: "[SX2]"
+
 # 143
 - key: "CH3S"
+  have: ["-S-"]
   query: "[CH3;!R][#16;!R]"
 
 # 154
@@ -235,10 +240,6 @@
 # 184
 - key: "-O-"
   query: "[OD2;!R]"
-
-# 185
-- key: "-S-"
-  query: "[SX2]"
 
 # 193
 - key: "Si"
