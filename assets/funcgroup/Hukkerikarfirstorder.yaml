@@ -46,7 +46,7 @@
 
 # 19
 - key: "aN in aromatic ring"
-  query: "[n]"
+  query: "[n; !$(N)]"
 
 # 20
 - key: "aC-CH3"
