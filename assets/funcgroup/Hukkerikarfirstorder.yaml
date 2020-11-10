@@ -237,7 +237,7 @@
 
 # 170
 - key: "C(cyc)"
-  query: "[CH0;R]"
+  query: "[CH0]"
 
 # 166
 - key: "C2H2O"
