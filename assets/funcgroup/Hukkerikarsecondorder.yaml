@@ -48,15 +48,15 @@
 
 # 21
 - key: "CHm(OH)CHn(OH) (m,n in 0..2)"
-  any: ["[CH0](O)[CH0][OH]",
-        "[CH0](O)[CH1][OH]",
-        "[CH0](O)[CH2][OH]",
-        "[CH1](O)[CH0][OH]",
-        "[CH1](O)[CH1][OH]",
-        "[CH1](O)[CH2][OH]",
-        "[CH2](O)[CH0][OH]",
-        "[CH2](O)[CH1][OH]",
-        "[CH2](O)[CH2][OH]"]
+  any: ["[CH0;!R](O)[CH0;!R][OH]",
+        "[CH0;!R](O)[CH1;!R][OH]",
+        "[CH0;!R](O)[CH2;!R][OH]",
+        "[CH1;!R](O)[CH0;!R][OH]",
+        "[CH1;!R](O)[CH1;!R][OH]",
+        "[CH1;!R](O)[CH2;!R][OH]",
+        "[CH2;!R](O)[CH0;!R][OH]",
+        "[CH2;!R](O)[CH1;!R][OH]",
+        "[CH2;!R](O)[CH2;!R][OH]"]
 
 # 47
 - key: "CHn=CHm-COO-CHp (m,n,p in 0..3)"
