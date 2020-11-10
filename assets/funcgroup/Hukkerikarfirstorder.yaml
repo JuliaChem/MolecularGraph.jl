@@ -89,7 +89,7 @@
 
 # 33
 - key: "CH3CO"
-  have: ["C"]
+  have: ["CH3", "C"]
   query: "[CH3D1][CD3](=O)[A;!#8]"
 
 
