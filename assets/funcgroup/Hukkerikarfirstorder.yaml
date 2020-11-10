@@ -259,7 +259,7 @@
 
 # 173
 - key: "C=C(cyc)"
-  query: "[CH0;R]=[CH0;R]"
+  query: "[CH0;R2]=[CH0;2R]"
 
 # 174
 - key: "CH2=C(cyc)"
