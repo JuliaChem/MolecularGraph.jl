@@ -46,7 +46,7 @@
 
 # 19
 - key: "aN in aromatic ring"
-  query: "[nR1]"
+  query: "[n]"
 
 # 20
 - key: "aC-CH3"
@@ -259,7 +259,7 @@
 
 # 173
 - key: "C=C(cyc)"
-  query: "[CH0;R2]=[CH0;2R]"
+  query: "[CH0;R2]=[CH0;R2]"
 
 # 174
 - key: "CH2=C(cyc)"
