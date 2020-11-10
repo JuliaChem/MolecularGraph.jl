@@ -276,7 +276,7 @@
 
 # 180
 - key: "CO(cyc)"
-  query: "[OD1]=[c;R]"
+  query: "[OD1]=[C;R]"
 
 # 183
 - key: ">NH"
