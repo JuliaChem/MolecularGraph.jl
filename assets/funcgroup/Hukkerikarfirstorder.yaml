@@ -42,11 +42,11 @@
 
 # 16
 - key: "aC fused with aromatic ring"
-  query: "[c;R2;!$(C)]"
+  query: "[c;R2;!$([C;R2])]"
 
 # 19
 - key: "aN in aromatic ring"
-  query: "[n;!$(N)]"
+  query: "[nD2;!$([ND2])]"
 
 # 20
 - key: "aC-CH3"
@@ -237,7 +237,7 @@
 
 # 170
 - key: "C(cyc)"
-  query: "[CH0]"
+  query: "[C]"
 
 # 166
 - key: "C2H2O"
