@@ -42,7 +42,7 @@
 
 # 16
 - key: "aC fused with aromatic ring"
-  query: "[cR2]"
+  query: "[c;R2;!$(C)]"
 
 # 19
 - key: "aN in aromatic ring"
