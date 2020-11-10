@@ -44,7 +44,7 @@
 
 # 16
 - key: "CHOH"
-  query: "[CH][OH]"
+  query: "[CH;!R][OH]"
 
 # 21
 - key: "CHm(OH)CHn(OH) (m,n in 0..2)"
